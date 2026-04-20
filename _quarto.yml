@@ -1,0 +1,63 @@
+project:
+  type: website  
+  output-dir: docs
+
+
+website:
+  title: "CELP Lab Species Lists"
+  navbar:
+    left:
+      - href: all.qmd
+        text: All
+      - text: By Habitat
+        menu:
+          - href: rocky_intertidal.qmd
+            text: Rocky Intertidal
+          - href: rocky_subtidal.qmd
+            text: Rocky Subtidal
+          - href: marsh.qmd
+            text: Salt marsh  
+            
+      - text: KEEN
+        menu:
+          - href: keen_quads.qmd
+            text: Quad Species
+          - href: keen_swath.qmd
+            text: Swath Species
+          - href: keen_upc.qmd
+            text: Uniform Point Count Species
+
+      - text: Boston Harbor Islands Sampling
+        menu:
+          - href: bhi_quads.qmd
+            text: Quad Species
+          - href: bhi_rov.qmd
+            text: ROV Species
+          - href: bhi_bruv_briv.qmd
+            text: BRUV/BRIV Species
+            
+      - text: Living Seawall Sampling
+        menu:
+          - href: lsw_quads.qmd
+            text: Quad Species
+          - href: lsw_camera.qmd
+            text: Mobile Camera Species
+
+    right:
+      - text: "CELP Lab Homepage"
+        href: http://celp-lab.org
+           
+
+  page-footer: 
+    left: '[![](/images/New_UMB_Logo_news_042522.jpg){width="50%"}](https://www.umb.edu/)'
+    right: 'Made with {{< fa brands r-project size=2x >}} and 
+      [![](https://quarto.org/quarto.png){fig-alt="Quarto" height=20px}](https://quarto.org/) <br>
+      Code at [{{< fa brands github>}}](https://github.com/byrneslab/species-list)<br>'
+      
+format:
+  html:
+    mainfont: Avenir
+    css: styles.css
+    toc: true
+
+

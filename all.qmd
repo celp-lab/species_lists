@@ -1,0 +1,12 @@
+---
+title: "All Species"
+listing:
+  categories: true
+  sort: "title"
+  type: grid
+  fields: [image, title, subtitle, description, categories]
+  date-format: " "
+  contents:
+    - species
+---
+

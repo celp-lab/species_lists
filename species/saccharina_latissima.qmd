@@ -1,0 +1,17 @@
+---
+title: "Saccharina latissima"
+subtitle: "SL, SLJ"
+date: ""
+description: "Sugar Kelp/Sea Belt, Lasagna-like blade, <10cm juvenile"
+date-format: " "
+image: '/header_images/640x427-kelp_sugar_nb_w.jpg'
+categories:
+  - brown algae
+  - kelp
+sampling_programs:
+    - keen_quad
+    - keen_upc
+catami_code:
+worms_code:
+---
+
