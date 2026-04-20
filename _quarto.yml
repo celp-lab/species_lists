@@ -7,40 +7,40 @@ website:
   title: "CELP Lab Species Lists"
   navbar:
     left:
-      - href: all.qmd
+      - href: all.html
         text: All
       - text: By Habitat
         menu:
-          - href: rocky_intertidal.qmd
+          - href: rocky_intertidal.html
             text: Rocky Intertidal
-          - href: rocky_subtidal.qmd
+          - href: rocky_subtidal.html
             text: Rocky Subtidal
-          - href: marsh.qmd
+          - href: marsh.html
             text: Salt marsh  
             
       - text: KEEN
         menu:
-          - href: keen_quads.qmd
+          - href: keen_quads.html
             text: Quad Species
-          - href: keen_swath.qmd
+          - href: keen_swath.html
             text: Swath Species
-          - href: keen_upc.qmd
+          - href: keen_upc.html
             text: Uniform Point Count Species
 
       - text: Boston Harbor Islands Sampling
         menu:
-          - href: bhi_quads.qmd
+          - href: bhi_quads.html
             text: Quad Species
-          - href: bhi_rov.qmd
+          - href: bhi_rov.html
             text: ROV Species
-          - href: bhi_bruv_briv.qmd
+          - href: bhi_bruv_briv.html
             text: BRUV/BRIV Species
             
       - text: Living Seawall Sampling
         menu:
-          - href: lsw_quads.qmd
+          - href: lsw_quads.html
             text: Quad Species
-          - href: lsw_camera.qmd
+          - href: lsw_camera.html
             text: Mobile Camera Species
 
     right:
