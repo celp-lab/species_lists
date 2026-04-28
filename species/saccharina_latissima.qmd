@@ -1,6 +1,9 @@
 ---
 title: "Saccharina latissima"
-subtitle: "SL, SLJ"
+subtitle: "SL"
+alternate_codes: ["SALA", "LASA"]
+diminutive: "SLJ"
+alternate_diminutives: ["SALAJ", "LASAJ"]
 date: ""
 description: "Sugar Kelp/Sea Belt, Lasagna-like blade, <10cm juvenile"
 date-format: " "
