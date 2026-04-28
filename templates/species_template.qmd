@@ -1,0 +1,91 @@
+---
+title: ""
+subtitle: ""
+alternate_codes: []
+diminutive: ""
+alternate_diminutives: ["", ""]
+common_name: ""
+field_id_possible:
+  - yes
+  - no
+date: ""
+date-format: " "
+description: ""
+image: '/header_images/'
+categories:
+  - brown algae
+  - green algae
+  - erect red algae
+  - red algal crusts
+  - kelp
+  - plants
+  - bryozoans
+  - corals
+  - anthozoans
+  - hydrozoans
+  - crustaceans
+  - insects
+  - sea stars
+  - brittle stars
+  - urchins
+  - sea cucumbers
+  - bivalves
+  - gastropods
+  - cephalopods
+  - sponges
+  - tunicates
+  - fish
+  - polychaetes
+  - flatworms
+  - unknown
+  - mammals
+  - arachnids
+  - amphipods
+  - birds
+  - fungi
+sampling_programs:
+    - keen_quad
+    - keen_swath
+    - keen_upc
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+    - bhi_farms
+    - lsw_quad
+    - lsw_microquad
+    - lsw_videos
+    - marsh_quads
+    - marsh_pitfall
+    - marsh_traps
+habitat:
+  - intertidal
+  - subtidal
+  - marsh
+mobility:
+  - sessile
+  - mobile
+sampling_region:
+  - GOM
+  - Virginian
+catami_code: 
+catami_version: "1.4"
+worms_code: 
+---
+
+![](/header_images/)
+
+**Other images:** <!-- Other images with attribution -->
+</br>
+
+**Distinguishing features:** 
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
+</br>
+
+**Easily confused species and differentiation:** 
+
+</br>
+
+**Extended Description:** <!-- Extended description -->
+
+<!-- link to worms page -->
+
