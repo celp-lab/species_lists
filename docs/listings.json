@@ -52,5 +52,57 @@
       "/species/carcinus_maenas.html",
       "/species/saccharina_latissima.html"
     ]
+  },
+  {
+    "listing": "/bhi_rov.html",
+    "items": [
+      "/species/carcinus_maenas.html",
+      "/species/saccharina_latissima.html"
+    ]
+  },
+  {
+    "listing": "/bhi_farms.html",
+    "items": [
+      "/species/carcinus_maenas.html"
+    ]
+  },
+  {
+    "listing": "/lsw_microquad.html",
+    "items": [
+      "/species/abietinaria_abietina.html",
+      "/species/saccharina_latissima.html"
+    ]
+  },
+  {
+    "listing": "/bhi_bruv_briv.html",
+    "items": [
+      "/species/ascophyllum_noodsum.html",
+      "/species/carcinus_maenas.html",
+      "/species/saccharina_latissima.html"
+    ]
+  },
+  {
+    "listing": "/lsw_quads.html",
+    "items": [
+      "/species/abietinaria_abietina.html",
+      "/species/ascophyllum_noodsum.html",
+      "/species/carcinus_maenas.html",
+      "/species/saccharina_latissima.html"
+    ]
+  },
+  {
+    "listing": "/bhi_quads.html",
+    "items": [
+      "/species/abietinaria_abietina.html",
+      "/species/ascophyllum_noodsum.html",
+      "/species/carcinus_maenas.html",
+      "/species/saccharina_latissima.html"
+    ]
+  },
+  {
+    "listing": "/lsw_camera.html",
+    "items": [
+      "/species/carcinus_maenas.html"
+    ]
   }
 ]

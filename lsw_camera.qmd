@@ -1,0 +1,23 @@
+---
+title: "Living Seawall Camera/Video Sampling"
+listing:
+  type: custom
+  template: _ejs/item.ejs.md
+  categories: true
+  contents: species/
+  sort: "species"
+  fields:
+    - species
+    - accepted_code
+    - alternate_codes
+    - diminutive
+    - alternate_diminutives
+    - description
+    - image
+    - categories
+    - habitat
+    - sampling_programs
+  include:
+    sampling_programs: ["lsw_videos"]
+css: species-listing.css
+---

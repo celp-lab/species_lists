@@ -35,6 +35,8 @@ website:
             text: ROV Species
           - href: bhi_bruv_briv.html
             text: BRUV/BRIV Species
+          - href: bhi_farms.html
+            text: FARMS Species
             
       - text: Living Seawall Sampling
         menu:
