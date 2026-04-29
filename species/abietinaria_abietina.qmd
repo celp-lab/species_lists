@@ -7,9 +7,7 @@ alternate_diminutives: ["", ""]
 common_name: "Sea fir"
 field_id_possible:
   - yes
-date: ""
-date-format: " "
-description: ""
+description: "Coarse pinnate hydroid often found on boulders or epiphytically"
 image: '/header_images/82275_abietinaria-abietina_Picton_Bernard.jpg'
 categories:
   - hydrozoans
