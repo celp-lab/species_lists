@@ -32,7 +32,8 @@ catami_version: "1.4"
 worms_code: 117870
 ---
 
-![](/header_images/82275_abietinaria-abietina_Picton_Bernard.jpg) Photo from Bernard Picton via [WORMS](https://www.marinespecies.org/aphia.php?p=image&pic=82275&tid=117870)
+![](/header_images/82275_abietinaria-abietina_Picton_Bernard.jpg)  
+Photo from Bernard Picton via [WORMS](https://www.marinespecies.org/aphia.php?p=image&pic=82275&tid=117870)
 
 **Link to Unknown ID Page:** Unknown hydroid.
 
