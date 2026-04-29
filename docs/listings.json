@@ -7,5 +7,50 @@
       "/species/carcinus_maenas.html",
       "/species/saccharina_latissima.html"
     ]
+  },
+  {
+    "listing": "/rocky_intertidal.html",
+    "items": [
+      "/species/abietinaria_abietina.html",
+      "/species/ascophyllum_noodsum.html",
+      "/species/carcinus_maenas.html",
+      "/species/saccharina_latissima.html"
+    ]
+  },
+  {
+    "listing": "/rocky_subtidal.html",
+    "items": [
+      "/species/abietinaria_abietina.html",
+      "/species/carcinus_maenas.html",
+      "/species/saccharina_latissima.html"
+    ]
+  },
+  {
+    "listing": "/marsh.html",
+    "items": [
+      "/species/carcinus_maenas.html"
+    ]
+  },
+  {
+    "listing": "/keen_quads.html",
+    "items": [
+      "/species/carcinus_maenas.html",
+      "/species/saccharina_latissima.html"
+    ]
+  },
+  {
+    "listing": "/keen_upc.html",
+    "items": [
+      "/species/abietinaria_abietina.html",
+      "/species/ascophyllum_noodsum.html",
+      "/species/saccharina_latissima.html"
+    ]
+  },
+  {
+    "listing": "/keen_swath.html",
+    "items": [
+      "/species/carcinus_maenas.html",
+      "/species/saccharina_latissima.html"
+    ]
   }
 ]

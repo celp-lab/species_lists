@@ -1,5 +1,5 @@
 ---
-title: "All Species"
+title: "Rocky Intertidal Species"
 listing:
   type: custom
   template: _ejs/item.ejs.md
@@ -16,7 +16,7 @@ listing:
     - image
     - categories
     - habitat
-    - mobility
-    - sampling_programs
+  include:
+    habitat: ["intertidal"]
 css: species-listing.css
 ---

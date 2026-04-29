@@ -1,5 +1,5 @@
 ---
-title: "All Species"
+title: "KEEN Quadrat Sampling"
 listing:
   type: custom
   template: _ejs/item.ejs.md
@@ -16,7 +16,8 @@ listing:
     - image
     - categories
     - habitat
-    - mobility
     - sampling_programs
+  include:
+    sampling_programs: ["keen_quad"]
 css: species-listing.css
 ---

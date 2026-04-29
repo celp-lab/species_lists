@@ -4,7 +4,7 @@ project:
 
 
 website:
-  title: "CELP Lab Species Lists"
+  title: "CELP Lab Field Guide & Species Codes"
   navbar:
     left:
       - href: all.html
@@ -40,6 +40,8 @@ website:
         menu:
           - href: lsw_quads.html
             text: Quad Species
+          - href: lsw_microquad.html
+            text: Microquad Species
           - href: lsw_camera.html
             text: Mobile Camera Species
 
