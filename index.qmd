@@ -1,6 +1,8 @@
 ---
-title: "Coastal Ecology for a Living Planet Lab @ UMass Boston Species Lists"
+title: "CELP Lab @ UMass Boston Species Lists & Codes"
 ---
 <center>
-[![](images/initial_logo.JPG){width="40%"}](http://celp-lab.org)
+[![](images/triptych_saccharina_nucella_chondrus.png)
 </center>
+<br><br>
+This page contains brief species identifications and codes used for data recording in the field for all species sampled by the Coastal Ecology for a Living Planet lab. Please use it for reference as a rough field ID guide, although it is likely incomplete. We will note which species cannot be identified in the field where needed.

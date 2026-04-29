@@ -4,7 +4,7 @@ project:
 
 
 website:
-  title: "CELP Lab Field Guide & Species Codes"
+  title: "CELP Lab Species Guide"
   navbar:
     left:
       - href: all.html
