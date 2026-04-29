@@ -52,7 +52,7 @@ website:
     left: '[![](/images/New_UMB_Logo_news_042522.jpg){width="50%"}](https://www.umb.edu/)'
     right: 'Made with {{< fa brands r-project size=2x >}} and 
       [![](https://quarto.org/quarto.png){fig-alt="Quarto" height=20px}](https://quarto.org/) <br>
-      Code at [{{< fa brands github>}}](https://github.com/byrneslab/species-list)<br>'
+      Code at [{{< fa brands github>}}](https://github.com/celp-lab/species_lists/)<br>'
       
 format:
   html:
