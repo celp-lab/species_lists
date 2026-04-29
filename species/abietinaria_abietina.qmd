@@ -1,6 +1,6 @@
 ---
-title: "Abietinaria abietina"
-subtitle: "ABAB"
+species: "Abietinaria abietina"
+accepted_code: "ABAB"
 alternate_codes: []
 diminutive: ""
 alternate_diminutives: ["", ""]

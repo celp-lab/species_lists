@@ -82,9 +82,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-species','listing-accepted_code','listing-alternate_codes','listing-diminutive','listing-alternate_diminutives','listing-description','listing-image','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-species","listing-accepted_code","listing-alternate_codes","listing-diminutive","listing-alternate_diminutives","listing-date-format","listing-description","listing-image","listing-categories","listing-sampling_programs","listing-habitat","listing-mobility","listing-sampling_region","listing-catami_code","listing-catami_version","listing-worms_code","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-common_name","listing-field_id_possible"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -133,6 +133,7 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="species-listing.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -276,59 +277,96 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="aHlkcm96b2Fucw==" data-listing-file-modified-sort="1777473831241" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
-<a href="./species/abietinaria_abietina.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./header_images/82275_abietinaria-abietina_Picton_Bernard.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Abietinaria abietina
-</h5>
-<div class="card-subtitle listing-subtitle">
-ABAB
-</div>
-<div class="listing-categories">
+<div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
+<div class="species-grid">
 
-<div class="listing-category" onclick="window.quartoListingCategory('aHlkcm96b2Fucw=='); return false;">hydrozoans</div>
+  <div class="species-card" data-index="0" data-categories="aHlkcm96b2Fucw==" data-listing-file-modified-sort="1777475570697" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
 
-</div>
-<div class="card-text listing-description delink">
-<br>
-Photo from Bernard Picton via WORMS
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="YnJvd24lMjBhbGdhZSUyQ2tlbHA=" data-listing-file-modified-sort="1777472802109" data-listing-reading-time-sort="1" data-listing-word-count-sort="39">
-<a href="./species/saccharina_latissima.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./header_images/640x427-kelp_sugar_nb_w.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Saccharina latissima
-</h5>
-<div class="card-subtitle listing-subtitle">
-SL
-</div>
-<div class="listing-categories">
+    <div class="species-card-image">
+      
+        <img src="./header_images/82275_abietinaria-abietina_Picton_Bernard.jpg" alt="Abietinaria abietina">
+      
+    </div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('YnJvd24lMjBhbGdhZQ=='); return false;">brown algae</div>
+    <div class="species-card-body">
 
-<div class="listing-category" onclick="window.quartoListingCategory('a2VscA=='); return false;">kelp</div>
+      <h3 class="species-name listing-species anchored">Abietinaria abietina</h3>
 
-</div>
-<div class="card-text listing-description delink">
-<p>Sugar Kelp/Sea Belt, Lasagna-like blade, &lt;10cm juvenile</p>
-</div>
-</div>
-</div></a>
-</div>
+      <div class="species-codes">
+        
+          <span class="code-badge code-accepted">
+            <span class="code-label">Accepted Code</span>
+            <strong>ABAB</strong>
+            
+          </span>
+        
+        
+      </div>
+
+      
+        <p class="species-description listing-description"><br>
+Photo from Bernard Picton via WORMS</p>
+      
+
+      
+        <div class="species-categories">
+          
+            <span class="category-tag listing-categories">hydrozoans</span>
+          
+        </div>
+      
+
+    </div>
+  </div>
+
+  <div class="species-card" data-index="1" data-categories="YnJvd24lMjBhbGdhZSUyQ2tlbHA=" data-listing-file-modified-sort="1777475128838" data-listing-reading-time-sort="1" data-listing-word-count-sort="39">
+
+    <div class="species-card-image">
+      
+        <img src="./header_images/640x427-kelp_sugar_nb_w.jpg" alt="Saccharina latissima">
+      
+    </div>
+
+    <div class="species-card-body">
+
+      <h3 class="species-name listing-species anchored">Saccharina latissima</h3>
+
+      <div class="species-codes">
+        
+          <span class="code-badge code-accepted">
+            <span class="code-label">Accepted Code</span>
+            <strong>SL</strong>
+             Small Code: <strong> SLJ</strong>
+          </span>
+        
+        
+          <span class="code-badge code-alternate">
+            <span class="code-label">Alt</span>
+            SALA · LASA
+            
+              &nbsp;(SALAJ · LASAJ)
+            
+          </span>
+        
+      </div>
+
+      
+        <p class="species-description listing-description">Sugar Kelp/Sea Belt, Lasagna-like blade, &lt;10cm juvenile</p>
+      
+
+      
+        <div class="species-categories">
+          
+            <span class="category-tag listing-categories">brown algae</span>
+          
+            <span class="category-tag listing-categories">kelp</span>
+          
+        </div>
+      
+
+    </div>
+  </div>
+
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->

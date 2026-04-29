@@ -1,12 +1,19 @@
 ---
 title: "All Species"
 listing:
+  type: custom
+  template: _ejs/item.ejs.md
   categories: true
-  sort: "title"
-  type: grid
-  fields: [image, title, subtitle, description, categories]
-  date-format: " "
-  contents:
+  contents: species/
+  sort: "species"
+  fields:
     - species
+    - accepted_code
+    - alternate_codes
+    - diminutive
+    - alternate_diminutives
+    - description
+    - image
+    - categories
+css: species-listing.css
 ---
-

@@ -1,6 +1,6 @@
 ---
-title: ""
-subtitle: ""
+species: ""
+accepted_code: ""
 alternate_codes: []
 diminutive: ""
 alternate_diminutives: ["", ""]
