@@ -28,9 +28,9 @@
 }
 
 /* ---------- Grid container ---------- */
-.quarto-listing-container-custom .species-grid {
+.quarto-listing-container-custom .list {
   display: grid !important;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)) !important;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)) !important;
   gap: 0.75rem;
   padding: 0.5rem 0 2rem;
 }
@@ -185,7 +185,8 @@
   padding-top: 0.3rem;
 }
 
-.category-tag {
+.category-tag,
+.listing-category {
   background: var(--sl-tag-bg);
   color: var(--sl-tag-text);
   font-size: 0.63rem;
@@ -196,6 +197,7 @@
   letter-spacing: 0.02em;
   border: 1px solid #c5dccf;
   font-family: var(--sl-font-body);
+  cursor: pointer;
 }
 
 /* ---------- Responsive tweaks ---------- */

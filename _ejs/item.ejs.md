@@ -1,8 +1,7 @@
 ```{=html}
-<div class="species-grid">
+<div class="list">
 <% for (const item of items) { %>
   <div class="species-card" <%= metadataAttrs(item) %>>
-
     <div class="species-card-image">
       <% if (item.image) { %>
         <img src="<%= item.image %>" alt="<%= item.species %>" />
@@ -16,11 +15,8 @@
         </div>
       <% } %>
     </div>
-
     <div class="species-card-body">
-
       <h3 class="species-name listing-species"><%= item.species %></h3>
-
       <div class="species-codes">
         <% if (item.accepted_code) { %>
           <span class="code-badge code-accepted">
@@ -39,19 +35,18 @@
           </span>
         <% } %>
       </div>
-
       <% if (item.description) { %>
         <p class="species-description listing-description"><%= item.description %></p>
       <% } %>
-
       <% if (item.categories && item.categories.length > 0) { %>
         <div class="species-categories">
-          <% item.categories.forEach(function(cat) { %>
-            <span class="category-tag listing-categories"><%= cat %></span>
+          <% item.categories.forEach(function(category) { %>
+            <div class="listing-category category-tag" onclick="window.quartoListingCategory('<%= utils.b64encode(category) %>'); return false;">
+              <%= category %>
+            </div>
           <% }); %>
         </div>
       <% } %>
-
     </div>
   </div>
 <% } %>
