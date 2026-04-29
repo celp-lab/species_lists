@@ -75,15 +75,15 @@ worms_code:
 ![](/header_images/)
 
 **Other images:** <!-- Other images with attribution -->
-</br>
+<br/>
 
 **Distinguishing features:** 
 <!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
-</br>
+<br/>
 
 **Easily confused species and differentiation:** 
 
-</br>
+<br/>
 
 **Extended Description:** <!-- Extended description -->
 

@@ -34,20 +34,19 @@ worms_code: 117870
 
 ![](/header_images/82275_abietinaria-abietina_Picton_Bernard.jpg) Photo from Bernard Picton via [WORMS](https://www.marinespecies.org/aphia.php?p=image&pic=82275&tid=117870)
 
-**Link to Unknown ID Page:**
+**Link to Unknown ID Page:** Unknown hydroid.
 
 **Other images:** <!-- Other images with attribution -->
-</br>
+<br/>
 
-**Distinguishing features:** 
-<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
-</br>
+**Distinguishing features:** Erect hydroid with very defined pinnate brances. Looks very coarse given the very obvious branching.
+<br/>
 
 **Easily confused species and differentiation:** 
 
-</br>
+<br/>
 
 **Extended Description:** <!-- Extended description -->
 
-<!-- link to worms page -->
+**[WORMS page](https://www.marinespecies.org/aphia.php?p=taxdetails&id=117870)**
 
