@@ -1,0 +1,56 @@
+---
+species: "Carcinus maenas"
+accepted_code: "CAMA"
+alternate_codes: ["CAMS"]
+diminutive: "CAMAJ"
+alternate_diminutives: ["", ""]
+common_name: "Green crab"
+field_id_possible:
+  - yes
+date: ""
+date-format: " "
+description: "Dark and mottled shell"
+image: '/header_images/carcinus_maenas.jpg'
+categories:
+  - crustaceans
+sampling_programs:
+    - keen_quad
+    - keen_swath
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+    - bhi_farms
+    - lsw_quad
+    - lsw_videos
+    - marsh_quads
+    - marsh_pitfall
+    - marsh_traps
+habitat:
+  - intertidal
+  - subtidal
+  - marsh
+mobility:
+  - mobile
+sampling_region:
+  - GOM
+  - Virginian
+catami_code: 
+catami_version: "1.4"
+worms_code: 107381
+---
+
+![](/header_images/carcinus_maenas.jpg)
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** 5 teeth on anterior margin of carapace, narrower than cancer crabs.
+<br/>
+
+**Easily confused species and differentiation:** 
+
+<br/>
+
+**Extended Description:** <!-- Extended description -->
+
+**[WORMS page](https://www.marinespecies.org/aphia.php?p=taxdetails&id=107381)**

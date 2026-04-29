@@ -1,0 +1,48 @@
+---
+species: "Ascophyllum nodosum"
+accepted_code: "ASNO"
+alternate_codes: []
+diminutive: ""
+alternate_diminutives: ["", ""]
+common_name: "knotted wrack"
+field_id_possible:
+  - yes
+date: ""
+date-format: " "
+description: "Long, green/brown algae typically found in the upper rocky intertidal with distinct unpaired air bladders"
+image: '/header_images/ascophyllum_nodosum.jpg'
+categories:
+  - brown algae
+sampling_programs:
+    - keen_upc
+    - bhi_quadrat
+    - bhi_bruv
+    - lsw_quad
+habitat:
+  - intertidal
+mobility:
+  - sessile
+sampling_region:
+  - GOM
+  - Virginian
+catami_code: 80300901
+catami_version: "1.4"
+worms_code: 145541
+---
+
+![](/header_images/ascophyllum_nodosum.jpg)
+Photo from Misjel Decleer via [WORMS](https://www.marinespecies.org/aphia.php?p=image&pic=34379&tid=145541)
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** It forms long fronds that hang down, typically from hard substrate such as boulders. The fronds have a unpaured airbladders, with a new one generating each year.
+<br/>
+
+**Easily confused species and differentiation:** Closely related to Fucus species. 
+
+<br/>
+
+**Extended Description:** <!-- Extended description -->
+
+<!-- link to worms page -->
