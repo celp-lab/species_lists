@@ -1,7 +1,12 @@
+#' ------------------------
+#' Code to check for conflicts in species codes
+#' ------------------------
+
 library(yaml)
 library(dplyr)
 library(tidyr)
 library(purrr)
+library(lightparser)
 
 # to be filled in
 errors <- list()

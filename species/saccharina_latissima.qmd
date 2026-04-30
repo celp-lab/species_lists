@@ -4,8 +4,9 @@ accepted_code: "SL"
 alternate_codes: ["SALA", "LASA"]
 diminutive: "SLJ"
 alternate_diminutives: ["SALAJ", "LASAJ"]
-date: ""
-date-format: " "
+common_name: "Sugar kelp"
+field_id_possible:
+  - yes
 description: "Sugar Kelp/Sea Belt, Lasagna-like blade, <10cm juvenile"
 image: '/header_images/640x427-kelp_sugar_nb_w.jpg'
 categories:
