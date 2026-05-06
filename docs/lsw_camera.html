@@ -256,9 +256,9 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y3J1c3RhY2VhbnM=">crustaceans <span class="quarto-category-count">(1)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -286,6 +286,13 @@ window.Quarto = {
 
 
 <div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
+<div class="species-filter-bar">
+  <button class="species-filter-btn active" onclick="filterSpecies('', this)">All</button>
+  
+    <button class="species-filter-btn" onclick="filterSpecies('crustaceans', this)">crustaceans</button>
+  
+</div>
+
 <div class="list">
 
   <div class="species-card" data-index="0" data-categories="Y3J1c3RhY2VhbnM=" data-listing-file-modified-sort="1778090386087" data-listing-reading-time-sort="1" data-listing-word-count-sort="31">
@@ -328,6 +335,42 @@ window.Quarto = {
   </div>
 
 </div>
+
+<script>
+function filterSpecies(category, clickedBtn) {
+  // Sync the filter bar button state
+  document.querySelectorAll('.species-filter-btn').forEach(function(btn) {
+    btn.classList.remove('active');
+  });
+  if (clickedBtn) {
+    clickedBtn.classList.add('active');
+  } else {
+    // Called from a card tag — find matching button
+    document.querySelectorAll('.species-filter-btn').forEach(function(btn) {
+      if (btn.textContent.trim() === category) btn.classList.add('active');
+    });
+  }
+
+  // Also sync Quarto's sidebar category filter
+  if (category === '') {
+    if (window.quartoListingCategory) window.quartoListingCategory('');
+  } else {
+    if (window.quartoListingCategory) window.quartoListingCategory(btoa(encodeURIComponent(category)));
+  }
+
+  // Filter cards directly as a fallback
+  document.querySelectorAll('.species-card').forEach(function(card) {
+    if (category === '') {
+      card.style.display = '';
+    } else {
+      const cardCats = card.getAttribute('data-categories') || '';
+      const decoded = decodeURIComponent(atob(cardCats));
+      const matches = decoded.split(',').some(function(c) { return c.trim() === category; });
+      card.style.display = matches ? '' : 'none';
+    }
+  });
+}
+</script>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

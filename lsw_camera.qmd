@@ -3,7 +3,7 @@ title: "Living Seawall Camera/Video Sampling"
 listing:
   type: custom
   template: _ejs/item.ejs.md
-  categories: true
+  categories: false
   contents: species/
   sort: "species"
   fields:

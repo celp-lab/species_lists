@@ -30,7 +30,7 @@
 /* ---------- Grid container ---------- */
 .quarto-listing-container-custom .list {
   display: grid !important;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)) !important;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) !important;
   gap: 0.75rem;
   padding: 0.5rem 0 2rem;
 }
@@ -205,4 +205,37 @@
   .quarto-listing-custom {
     grid-template-columns: 1fr;
   }
+}
+
+* ---------- Inline category filter bar ---------- */
+.species-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  padding: 0.5rem 0 1rem;
+}
+
+.species-filter-btn {
+  background: var(--sl-surface);
+  color: var(--sl-text-muted);
+  border: 1px solid var(--sl-border);
+  border-radius: 20px;
+  font-family: var(--sl-font-body);
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.25rem 0.75rem;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.species-filter-btn:hover {
+  background: var(--sl-tag-bg);
+  color: var(--sl-tag-text);
+  border-color: #c5dccf;
+}
+
+.species-filter-btn.active {
+  background: var(--sl-accent);
+  color: #ffffff;
+  border-color: var(--sl-accent);
 }

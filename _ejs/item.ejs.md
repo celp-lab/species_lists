@@ -1,4 +1,14 @@
 ```{=html}
+<div class="species-filter-bar">
+  <button class="species-filter-btn active" onclick="filterSpecies('', this)">All</button>
+  <% 
+    const allCats = [...new Set(items.flatMap(item => item.categories || []))].sort();
+    allCats.forEach(function(category) { 
+  %>
+    <button class="species-filter-btn" onclick="filterSpecies('<%= category %>', this)"><%= category %></button>
+  <% }); %>
+</div>
+
 <div class="list">
 <% for (const item of items) { %>
   <div class="species-card" <%= metadataAttrs(item) %>>
@@ -51,4 +61,40 @@
   </div>
 <% } %>
 </div>
+
+<script>
+function filterSpecies(category, clickedBtn) {
+  // Sync the filter bar button state
+  document.querySelectorAll('.species-filter-btn').forEach(function(btn) {
+    btn.classList.remove('active');
+  });
+  if (clickedBtn) {
+    clickedBtn.classList.add('active');
+  } else {
+    // Called from a card tag — find matching button
+    document.querySelectorAll('.species-filter-btn').forEach(function(btn) {
+      if (btn.textContent.trim() === category) btn.classList.add('active');
+    });
+  }
+
+  // Also sync Quarto's sidebar category filter
+  if (category === '') {
+    if (window.quartoListingCategory) window.quartoListingCategory('');
+  } else {
+    if (window.quartoListingCategory) window.quartoListingCategory(btoa(encodeURIComponent(category)));
+  }
+
+  // Filter cards directly as a fallback
+  document.querySelectorAll('.species-card').forEach(function(card) {
+    if (category === '') {
+      card.style.display = '';
+    } else {
+      const cardCats = card.getAttribute('data-categories') || '';
+      const decoded = decodeURIComponent(atob(cardCats));
+      const matches = decoded.split(',').some(function(c) { return c.trim() === category; });
+      card.style.display = matches ? '' : 'none';
+    }
+  });
+}
+</script>
 ```
