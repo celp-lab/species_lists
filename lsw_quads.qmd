@@ -1,5 +1,6 @@
 ---
 title: "Living Seawall Quadrat Sampling"
+page-layout: full
 listing:
   type: custom
   template: _ejs/item.ejs.md

@@ -16,30 +16,36 @@
     ]
   },
   {
-    "listing": "/keen_quads.html",
-    "items": [
-      "/species/carcinus_maenas.html",
-      "/species/saccharina_latissima.html"
-    ]
-  },
-  {
-    "listing": "/bhi_quads.html",
-    "items": [
-      "/species/abietinaria_abietina.html",
-      "/species/ascophyllum_noodsum.html",
-      "/species/carcinus_maenas.html",
-      "/species/saccharina_latissima.html",
-      "/species/unknown_cca.html"
-    ]
-  },
-  {
-    "listing": "/marsh.html",
+    "listing": "/bhi_farms.html",
     "items": [
       "/species/carcinus_maenas.html"
     ]
   },
   {
-    "listing": "/lsw_quads.html",
+    "listing": "/keen_swath.html",
+    "items": [
+      "/species/carcinus_maenas.html"
+    ]
+  },
+  {
+    "listing": "/lsw_microquad.html",
+    "items": [
+      "/species/abietinaria_abietina.html",
+      "/species/saccharina_latissima.html",
+      "/species/unknown_cca.html"
+    ]
+  },
+  {
+    "listing": "/keen_upc.html",
+    "items": [
+      "/species/abietinaria_abietina.html",
+      "/species/ascophyllum_noodsum.html",
+      "/species/saccharina_latissima.html",
+      "/species/unknown_cca.html"
+    ]
+  },
+  {
+    "listing": "/all.html",
     "items": [
       "/species/abietinaria_abietina.html",
       "/species/ascophyllum_noodsum.html",
@@ -57,7 +63,7 @@
     ]
   },
   {
-    "listing": "/all.html",
+    "listing": "/lsw_quads.html",
     "items": [
       "/species/abietinaria_abietina.html",
       "/species/ascophyllum_noodsum.html",
@@ -67,32 +73,26 @@
     ]
   },
   {
-    "listing": "/keen_upc.html",
+    "listing": "/marsh.html",
+    "items": [
+      "/species/carcinus_maenas.html"
+    ]
+  },
+  {
+    "listing": "/bhi_quads.html",
     "items": [
       "/species/abietinaria_abietina.html",
       "/species/ascophyllum_noodsum.html",
+      "/species/carcinus_maenas.html",
       "/species/saccharina_latissima.html",
       "/species/unknown_cca.html"
     ]
   },
   {
-    "listing": "/lsw_microquad.html",
+    "listing": "/keen_quads.html",
     "items": [
-      "/species/abietinaria_abietina.html",
-      "/species/saccharina_latissima.html",
-      "/species/unknown_cca.html"
-    ]
-  },
-  {
-    "listing": "/keen_swath.html",
-    "items": [
-      "/species/carcinus_maenas.html"
-    ]
-  },
-  {
-    "listing": "/bhi_farms.html",
-    "items": [
-      "/species/carcinus_maenas.html"
+      "/species/carcinus_maenas.html",
+      "/species/saccharina_latissima.html"
     ]
   },
   {

@@ -1,5 +1,6 @@
 ---
 title: "KEEN Swath Sampling"
+page-layout: full
 listing:
   type: custom
   template: _ejs/item.ejs.md

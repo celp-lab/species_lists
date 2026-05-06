@@ -1,5 +1,6 @@
 ---
 title: "Living Seawall Camera/Video Sampling"
+page-layout: full
 listing:
   type: custom
   template: _ejs/item.ejs.md

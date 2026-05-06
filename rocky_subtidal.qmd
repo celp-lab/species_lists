@@ -1,5 +1,6 @@
 ---
 title: "Rocky Subtidal Species"
+page-layout: full
 listing:
   type: custom
   template: _ejs/item.ejs.md
