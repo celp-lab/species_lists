@@ -14,7 +14,6 @@ categories:
   - kelp
 sampling_programs:
     - keen_quad
-    - keen_swath
     - keen_upc
     - bhi_quadrat
     - bhi_rov
