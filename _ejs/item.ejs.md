@@ -4,19 +4,19 @@
   <div class="species-card" <%= metadataAttrs(item) %>>
     <div class="species-card-image">
       <% if (item.image) { %>
-        <img src="<%= item.image %>" alt="<%= item.species %>" />
+        <a href="<%- item.path %>"><img src="<%= item.image %>" alt="<%= item.species %>" /></a>
       <% } else { %>
         <div class="species-card-placeholder">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" aria-hidden="true">
+          <a href="<%- item.path %>"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" aria-hidden="true">
             <path d="M40 18 C28 18 18 28 18 40 C18 52 28 62 40 62 C52 62 62 52 62 40 C62 28 52 18 40 18Z"
                   fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 2" opacity="0.4"/>
             <text x="40" y="44" text-anchor="middle" font-size="10" fill="currentColor" opacity="0.5" font-family="serif" font-style="italic">no image</text>
-          </svg>
+          </svg></a>
         </div>
       <% } %>
     </div>
     <div class="species-card-body">
-      <h3 class="species-name listing-species"><%= item.species %></h3>
+      <a href="<%- item.path %>"><h3 class="species-name listing-species"><%= item.species %></h3></a>
       <div class="species-codes">
         <% if (item.accepted_code) { %>
           <span class="code-badge code-accepted">

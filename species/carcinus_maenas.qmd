@@ -3,7 +3,7 @@ species: "Carcinus maenas"
 accepted_code: "CAMA"
 alternate_codes: ["CAMS"]
 diminutive: "CAMAJ"
-alternate_diminutives: ["", ""]
+alternate_diminutives:
 common_name: "Green crab"
 field_id_possible:
   - yes

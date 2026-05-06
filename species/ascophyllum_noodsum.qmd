@@ -2,8 +2,8 @@
 species: "Ascophyllum nodosum"
 accepted_code: "ASNO"
 alternate_codes: ["ASDI"]
-diminutive: ""
-alternate_diminutives: ["", ""]
+diminutive: 
+alternate_diminutives: 
 common_name: "knotted wrack"
 field_id_possible:
   - yes
