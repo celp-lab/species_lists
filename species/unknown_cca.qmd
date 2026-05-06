@@ -12,12 +12,10 @@ image: '/header_images/unknown_coralline_wikipedia.jpg'
 categories:
   - red algal crusts
 sampling_programs:
-    - keen_quad
     - keen_upc
     - bhi_quadrat
     - lsw_quad
     - lsw_microquad
-    - marsh_quads
 habitat:
   - intertidal
   - subtidal
