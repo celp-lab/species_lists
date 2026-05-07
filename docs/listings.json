@@ -3,6 +3,7 @@
     "listing": "/bhi_rov.html",
     "items": [
       "/species/carcinus_maenas.html",
+      "/species/Mytilus_edulis.html",
       "/species/saccharina_latissima.html"
     ]
   },
@@ -11,8 +12,12 @@
     "items": [
       "/species/abietinaria_abietina.html",
       "/species/carcinus_maenas.html",
+      "/species/hildenbrandia_rubra.html",
+      "/species/Mytilus_edulis.html",
       "/species/saccharina_latissima.html",
-      "/species/unknown_cca.html"
+      "/species/unknown_bbl.html",
+      "/species/unknown_cca.html",
+      "/species/unknown_rfc.html"
     ]
   },
   {
@@ -31,8 +36,11 @@
     "listing": "/lsw_microquad.html",
     "items": [
       "/species/abietinaria_abietina.html",
+      "/species/hildenbrandia_rubra.html",
       "/species/saccharina_latissima.html",
-      "/species/unknown_cca.html"
+      "/species/unknown_bbl.html",
+      "/species/unknown_cca.html",
+      "/species/unknown_rfc.html"
     ]
   },
   {
@@ -40,8 +48,12 @@
     "items": [
       "/species/abietinaria_abietina.html",
       "/species/ascophyllum_noodsum.html",
+      "/species/hildenbrandia_rubra.html",
+      "/species/Mytilus_edulis.html",
       "/species/saccharina_latissima.html",
-      "/species/unknown_cca.html"
+      "/species/unknown_bbl.html",
+      "/species/unknown_cca.html",
+      "/species/unknown_rfc.html"
     ]
   },
   {
@@ -50,8 +62,12 @@
       "/species/abietinaria_abietina.html",
       "/species/ascophyllum_noodsum.html",
       "/species/carcinus_maenas.html",
+      "/species/hildenbrandia_rubra.html",
+      "/species/Mytilus_edulis.html",
       "/species/saccharina_latissima.html",
-      "/species/unknown_cca.html"
+      "/species/unknown_bbl.html",
+      "/species/unknown_cca.html",
+      "/species/unknown_rfc.html"
     ]
   },
   {
@@ -59,7 +75,9 @@
     "items": [
       "/species/ascophyllum_noodsum.html",
       "/species/carcinus_maenas.html",
-      "/species/saccharina_latissima.html"
+      "/species/Mytilus_edulis.html",
+      "/species/saccharina_latissima.html",
+      "/species/unknown_bbl.html"
     ]
   },
   {
@@ -68,8 +86,12 @@
       "/species/abietinaria_abietina.html",
       "/species/ascophyllum_noodsum.html",
       "/species/carcinus_maenas.html",
+      "/species/hildenbrandia_rubra.html",
+      "/species/Mytilus_edulis.html",
       "/species/saccharina_latissima.html",
-      "/species/unknown_cca.html"
+      "/species/unknown_bbl.html",
+      "/species/unknown_cca.html",
+      "/species/unknown_rfc.html"
     ]
   },
   {
@@ -84,15 +106,22 @@
       "/species/abietinaria_abietina.html",
       "/species/ascophyllum_noodsum.html",
       "/species/carcinus_maenas.html",
+      "/species/hildenbrandia_rubra.html",
+      "/species/Mytilus_edulis.html",
       "/species/saccharina_latissima.html",
-      "/species/unknown_cca.html"
+      "/species/unknown_bbl.html",
+      "/species/unknown_cca.html",
+      "/species/unknown_rfc.html"
     ]
   },
   {
     "listing": "/keen_quads.html",
     "items": [
       "/species/carcinus_maenas.html",
-      "/species/saccharina_latissima.html"
+      "/species/hildenbrandia_rubra.html",
+      "/species/saccharina_latissima.html",
+      "/species/unknown_bbl.html",
+      "/species/unknown_rfc.html"
     ]
   },
   {
@@ -107,8 +136,12 @@
       "/species/abietinaria_abietina.html",
       "/species/ascophyllum_noodsum.html",
       "/species/carcinus_maenas.html",
+      "/species/hildenbrandia_rubra.html",
+      "/species/Mytilus_edulis.html",
       "/species/saccharina_latissima.html",
-      "/species/unknown_cca.html"
+      "/species/unknown_bbl.html",
+      "/species/unknown_cca.html",
+      "/species/unknown_rfc.html"
     ]
   }
 ]

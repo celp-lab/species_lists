@@ -1,0 +1,48 @@
+---
+species: "Unknown red fleshy crust"
+accepted_code: "URFC"
+alternate_codes: ["UFRC"]
+diminutive: ""
+alternate_diminutives: [""]
+common_name: "Encrusting red"
+field_id_possible:
+  - yes
+description: "Fleshy and red encrusting"
+image: '/header_images/unknown_rfc_uw.jpg'
+categories:
+  - red algal crusts
+  - unknown
+sampling_programs:
+    - keen_quad
+    - keen_upc
+    - bhi_quadrat
+    - lsw_quad
+    - lsw_microquad
+habitat:
+  - intertidal
+  - subtidal
+mobility:
+  - sessile
+sampling_region:
+  - GOM
+  - Virginian
+catami_code:
+catami_version: "1.4"
+worms_code: 852
+---
+
+![](/header_images/unknown_rfc_uw.jpg)
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** Encrusting red algae, but not calcified. Fleshy or spongey to the touch. Grows in patches, synonymous with rocks or other hard surfaces.
+<br/>
+
+**Easily confused species and differentiation:** Hildenbrandia rubra (HIRU)
+
+<br/>
+
+**Extended Description:** Might be HIRU but sometimes the coloring is off in the field. If you're not 100% certain its HIRU then use URFC
+
+<!-- link to worms page -->

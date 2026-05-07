@@ -1,9 +1,9 @@
 ---
 species: "Unknown Crustose Coralline Algae"
 accepted_code: "UCCA"
-alternate_codes: 
-diminutive: 
-alternate_diminutives: 
+alternate_codes: ["EC", "NGCA"]
+diminutive: ""
+alternate_diminutives: ""
 common_name: "Coralline algae"
 field_id_possible:
   - yes
@@ -11,6 +11,7 @@ description: ""
 image: '/header_images/unknown_coralline_wikipedia.jpg'
 categories:
   - red algal crusts
+  - unknown
 sampling_programs:
     - keen_upc
     - bhi_quadrat
@@ -25,7 +26,7 @@ sampling_region:
   - GOM
 catami_code: 
 catami_version: "1.4"
-worms_code: 
+worms_code: 852
 ---
 
 ![](/header_images/)
