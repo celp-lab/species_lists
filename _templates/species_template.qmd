@@ -1,16 +1,14 @@
 ---
 species: ""
 accepted_code: ""
-alternate_codes: []
-diminutive: ""
-alternate_diminutives: ["", ""]
+alternate_codes: # "CODE" for single or ["CODE1", "CODE2"] for >1
+diminutive: #"CODE" # uncomment and fill in if one exists
+alternate_diminutives: # "CODE" for single or ["CODE1", "CODE2"] for >1
 common_name: ""
 field_id_possible:
   - yes
   - no
-date: ""
-date-format: " "
-description: ""
+description: "" # make sure to fill this in!
 image: '/header_images/'
 categories:
   - brown algae
