@@ -1,0 +1,51 @@
+---
+species: "Asterias rubens"
+accepted_code: "ASRU"
+alternate_codes: []
+diminutive: "ASRUS"
+alternate_diminutives:
+common_name: "Common Star"
+field_id_possible:
+  - yes
+description: "Varies in color from pale brown or orange/red, to purple. White madreporite."
+image: '/header_images/asterias_rubens.jpg'
+categories:
+  - sea stars
+sampling_programs:
+    - keen_quad
+    - keen_swath
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+habitat:
+  - intertidal
+  - subtidal
+mobility:
+  - mobile
+sampling_region:
+  - GOM
+  - Virginian
+catami_code: 
+catami_version: "1.4"
+worms_code: 123776
+---
+
+![](/header_images/asterias_rubens.jpg)
+
+Photo from Julius A. Ellrich via [WORMS](https://www.marinespecies.org/aphia.php?p=image&pic=126854&tid=123776)
+
+**Other images:** '/images/asru_2.jpg'
+<br/>
+
+**Distinguishing features:** Can range in color from yellow/orange to purple. Has five thick arms and spiny skin, though some arms may be missing. A bright white madreporite is the key identifier for this species.
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
+<br/>
+
+**Easily confused species and differentiation:** Asterias forbesi (ASFO).
+
+<br/>
+
+**Extended Description:** Can be found intertidally or subtidally, and will most commonly be found attached to rocks or other hard substrate. When disturbed, they use their tube feet to cling on to substrate, making removal impossible without the potential of ripping some of their tube feet.
+<!-- Extended description -->
+
+**[WORMS page](https://www.marinespecies.org/aphia.php?p=taxdetails&id=123776)**

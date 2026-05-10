@@ -1,0 +1,47 @@
+---
+species: "Modiolus modiolus"
+accepted_code: "MOMO"
+alternate_codes: []
+diminutive: #"CODE" # uncomment and fill in if one exists
+alternate_diminutives: ["", ""]
+common_name: "Modiolus modiolus"
+field_id_possible:
+  - yes
+description: "Large bivalve with a thick shell and a glossy yellow or brown coloring." # make sure to fill this in!
+image: '/header_images/modiolus_modiolus.jpg'
+categories:
+  - bivalves
+sampling_programs:
+    - keen_upc
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+habitat:
+  - subtidal
+mobility:
+  - sessile
+sampling_region:
+  - GOM
+  - Virginian
+catami_code: 
+catami_version: "1.4"
+worms_code: 140467
+---
+
+![](/header_images/modiolus_modiolus.jpg)
+Photo from IMARES via [WORMS](https://www.marinespecies.org/aphia.php?p=image&pic=1984&tid=140467)
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** Larger and faster growing than other similar species. It has a thick shell and a glossy yellow or brown coloring, and a flat umbo. It is also ypically found subtidally rather than intertidally.
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
+<br/>
+
+**Easily confused species and differentiation:** Mytilus edilus (MYED)
+
+<br/>
+
+**Extended Description:** Large, thick, glossy yellow-brown bivalve. Attaches to hard substrate using byssal threads, typically in deeper, colder, saltier waters. They are less suited to the intertidal, particularly the upper intertidal.
+
+**[WORMS page](https://www.marinespecies.org/aphia.php?p=taxdetails&id=140467#images)**

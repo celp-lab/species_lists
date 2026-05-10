@@ -7,6 +7,7 @@ listing:
   categories: false
   contents: species/
   sort: "species"
+  page-size: 10 # 25
   fields:
     - species
     - accepted_code

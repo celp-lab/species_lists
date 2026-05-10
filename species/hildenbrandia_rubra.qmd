@@ -9,7 +9,7 @@ field_id_possible:
   - yes
 date: ""
 date-format: " "
-description: ""
+description: "Encrusting calcareous/hard red algae"
 image: '/header_images/hildenbrandia_rubra_inaturalist.jpg'
 categories:
   - red algal crusts
@@ -33,6 +33,7 @@ worms_code: 145712
 ---
 
 ![](/header_images/hildenbrandia_rubra_inaturalist.jpg)
+PHOTO CREDIT: https://www.inaturalist.org/taxa/183033-Hildenbrandia-rubra
 
 **Other images:** '/images/hiru_2.jpg'
 <br/>

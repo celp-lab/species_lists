@@ -7,7 +7,7 @@ alternate_diminutives: ""
 common_name: "Coralline algae"
 field_id_possible:
   - yes
-description: ""
+description: "Encrusting calcareous/hard red algae"
 image: '/header_images/unknown_coralline_wikipedia.jpg'
 categories:
   - red algal crusts
@@ -29,7 +29,7 @@ catami_version: "1.4"
 worms_code: 852
 ---
 
-![](/header_images/)
+![](/header_images/unknown_coralline_wikipedia.jpg)
 
 **Other images:** <!-- Other images with attribution -->
 <br/>

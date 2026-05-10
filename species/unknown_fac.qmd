@@ -1,0 +1,51 @@
+---
+species: "Unknown fleshy algal crust"
+accepted_code: "UFAC"
+alternate_codes: # "CODE" for single or ["CODE1", "CODE2"] for >1
+diminutive: #"CODE" # uncomment and fill in if one exists
+alternate_diminutives: # "CODE" for single or ["CODE1", "CODE2"] for >1
+common_name: "Fleshy crust"
+field_id_possible:
+  - yes
+description: "Any non-calareous encrusting algae" # make sure to fill this in!
+image: '/header_images/unknown_fac.jpg'
+categories:
+  - brown algae
+  - green algae
+  - red algal crusts
+  - unknown
+sampling_programs:
+    - keen_quad
+    - keen_upc
+    - bhi_quadrat
+    - lsw_quad
+    - lsw_microquad
+habitat:
+  - intertidal
+  - subtidal
+mobility:
+  - sessile
+sampling_region:
+  - GOM
+  - Virginian
+catami_code: 
+catami_version: "1.4"
+worms_code: 
+---
+
+![](/header_images/unknown_fac.jpg)
+
+PHOTO CREDIT: https://limpets.org/rocky-intertidal-monitoring/ri-species/
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** Fleshy/spongey to the touch. Grows synonymous to rocks, can be bumpy or flat.
+<br/>
+
+**Easily confused species and differentiation:** URFC, UBFC, UGFC
+<br/>
+
+**Extended Description:** If you can't tell the color (usually an issue between brown and red crusts) use this code. Header image is an example, hard to delineate if it is a brown or red fleshy crust!
+
+<!-- link to worms page -->

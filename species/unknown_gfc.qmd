@@ -1,0 +1,50 @@
+---
+species: "Unknown green fleshy crust"
+accepted_code: "UGFC"
+alternate_codes: "UFAC" # "CODE" for single or ["CODE1", "CODE2"] for >1
+diminutive: #"CODE" # uncomment and fill in if one exists
+alternate_diminutives: # "CODE" for single or ["CODE1", "CODE2"] for >1
+common_name: "green fleshy crust"
+field_id_possible:
+  - yes
+description: "Any non-calcerous green encrusting algae" # make sure to fill this in!
+image: '/header_images/unknown_gfc.jpg'
+categories:
+  - green algae
+  - unknown
+sampling_programs:
+    - keen_quad
+    - keen_upc
+    - bhi_quadrat
+    - lsw_quad
+    - lsw_microquad
+habitat:
+  - intertidal
+  - subtidal
+mobility:
+  - sessile
+sampling_region:
+  - GOM
+  - Virginian
+catami_code: 
+catami_version: "1.4"
+worms_code: 801
+---
+
+![](/header_images/unknown_gfc.jpg')
+
+PHOTO CREDIT:https://theoutershores.com/bio/animals-plants-and-algae/marine-algae/green-algae-chlorophyta/
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** Fleshy/spongey to the touch. Green looking in color. Grows synonymous to rocks, can be bumpy or flat.
+<br/>
+
+**Easily confused species and differentiation:** UFAC
+
+<br/>
+
+**Extended Description:** If you can't delineate color, use UFAC.
+
+<!-- link to worms page -->

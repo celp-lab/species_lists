@@ -1,0 +1,51 @@
+---
+species: "Asterias forbesi"
+accepted_code: "ASFO"
+alternate_codes: []
+diminutive: "ASFOS"
+alternate_diminutives:
+common_name: "Forbes Star"
+field_id_possible:
+  - yes
+description: "Yellowish orange to purple sea star with bright orange madreporite."
+image: '/header_images/asterias_forbesi.jpg'
+categories:
+  - sea stars
+sampling_programs:
+    - keen_quad
+    - keen_swath
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+habitat:
+  - intertidal
+  - subtidal
+mobility:
+  - mobile
+sampling_region:
+  - GOM
+  - Virginian
+catami_code: 
+catami_version: "1.4"
+worms_code: 158489
+---
+
+![](/header_images/asterias_forbesi.jpg)
+
+Photo from Julius A. Ellrich via [WORMS](https://www.marinespecies.org/aphia.php?p=image&pic=127397&tid=158489)
+
+**Other images:** '/images/asfo_2.jpg
+<br/>
+
+**Distinguishing features:** Can range in color from yellow/orange to deep purple. Has five thick arms and spiny skin, though some arms may be missing. A bright orange madreporite is the key identifier for this species.
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
+<br/>
+
+**Easily confused species and differentiation:** Asterias rubens (ASRU).
+
+<br/>
+
+**Extended Description:** Can be found intertidally or subtidally, and will most commonly be found attached to rocks or other hard substrate. When disturbed, they use their tube feet to cling on to substrate, making removal impossible without the potential of ripping some of their tube feet.
+<!-- Extended description -->
+
+**[WORMS page](https://www.marinespecies.org/aphia.php?p=taxdetails&id=158489)**

@@ -1,9 +1,9 @@
 ---
 species: "Unknown red fleshy crust"
 accepted_code: "URFC"
-alternate_codes: ["UFRC"]
-diminutive: ""
-alternate_diminutives: [""]
+alternate_codes: ["UFAC", "UFRC"]
+diminutive: 
+alternate_diminutives: 
 common_name: "Encrusting red"
 field_id_possible:
   - yes
@@ -33,6 +33,8 @@ worms_code: 852
 
 ![](/header_images/unknown_rfc_uw.jpg)
 
+PHOTO CREDIT https://depts.washington.edu/fhl/mb/Hildenbrandia_Ben/habitat.html
+
 **Other images:** <!-- Other images with attribution -->
 <br/>
 
@@ -43,6 +45,6 @@ worms_code: 852
 
 <br/>
 
-**Extended Description:** Might be HIRU but sometimes the coloring is off in the field. If you're not 100% certain its HIRU then use URFC
+**Extended Description:** Might be HIRU but sometimes the coloring is off in the field. If you're not 100% certain its HIRU then use URFC. If you cant delineate color at all, resort to UFAC. Sometimes we mess up in the field and switch up the letters in which case UFRC
 
 <!-- link to worms page -->

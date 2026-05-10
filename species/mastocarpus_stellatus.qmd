@@ -1,0 +1,51 @@
+---
+species: "Mastocarpus stellatus"
+accepted_code: "MAST"
+alternate_codes: []
+diminutive: ""
+alternate_diminutives:
+common_name: "False irish moss"
+field_id_possible:
+  - yes
+description: "Fan-like branching red algae with channeled fronds. Central/main branch tends to be thicker and triangle-like."
+
+image: '/header_images/mastocarpus_stellatus.jpg'
+categories:
+  - erect red algae
+sampling_programs:
+    - keen_quad
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+habitat:
+  - intertidal
+  - subtidal
+mobility:
+  - sessile
+sampling_region:
+  - GOM
+  - Virginian
+catami_code: 80300903
+catami_version: "1.4"
+worms_code: 145650
+---
+
+![](/header_images/mastocarpus_stellatus.jpg)
+
+Photo from Ignacio Bárbara via [WORMS](https://www.marinespecies.org/aphia.php?p=image&pic=14893&tid=145650)
+
+**Other images:** 
+<br/>
+
+**Distinguishing features:** Has channeled fronds. Does NOT have a blue iridescence underwater and in some lighting. When reproductive, can be covered in small cysts/bumps, resembling grape pips.
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
+<br/>
+
+**Easily confused species and differentiation:** Chondrus Crispus (CHCR)
+*Chondrus* has a flat stipe/thalli, although the edges of the blades might be curly. *Mastocarpus* stipes/thalli are curled. See [here](https://mainenaturalhistory.org/chondrus-crispus-vs-mastocarpus-stellatus/) for the definitive guide.
+<br/>
+
+**Extended Description:** Red algae with fan-like dichotomous branching. Fronds are thick and leathery. It is often twisted. Can be found intertidally or in the shallow subtidal. 
+<!-- Extended description -->
+
+**[WORMS page](https://www.marinespecies.org/aphia.php?p=taxdetails&id=145650)**

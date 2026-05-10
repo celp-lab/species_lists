@@ -1,0 +1,51 @@
+---
+species: "Chondrus crispus"
+accepted_code: "CHCR"
+alternate_codes: []
+diminutive: ""
+alternate_diminutives:
+common_name: "Irish moss"
+field_id_possible:
+  - yes
+description: "Flat blade, flat thalli, fan-like, regular branching, dark purple/red, or yellow/greenish fronds, up to 15cm tall"
+
+image: '/header_images/chondrus_crispus.jpg'
+categories:
+  - erect red algae
+sampling_programs:
+    - keen_quad
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+habitat:
+  - intertidal
+  - subtidal
+mobility:
+  - sessile
+sampling_region:
+  - GOM
+  - Virginian
+catami_code: 80300922
+catami_version: "1.4"
+worms_code: 145625
+---
+
+![](/header_images/chondrus_crispus.jpg)
+
+Photo from Irene Novaczek via [WORMS](https://www.marinespecies.org/aphia.php?p=image&pic=127585&tid=145625)
+
+**Other images:** 
+<br/>
+
+**Distinguishing features:** Red algae with fan-like dichotomous branching. Frond is mostly flat. Has a blue iridescence underwater and in some lighting.
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
+<br/>
+
+**Easily confused species and differentiation:** *Mastocarpus stellatus* (MAST), also known as false irish moss. *Chondrus* has a flat stipe/thalli, although the edges of the blades might be curly. See [here](https://mainenaturalhistory.org/chondrus-crispus-vs-mastocarpus-stellatus/) for the definitive guide.
+
+<br/>
+
+**Extended Description:** Can be found intertidally or in the shallow subtidal. When reproductive, it will have oval shaped bumps on the edges.
+<!-- Extended description -->
+
+**[WORMS page](https://www.marinespecies.org/aphia.php?p=taxdetails&id=145625)**

@@ -7,7 +7,7 @@ alternate_diminutives: ["", ""]
 common_name: ""
 field_id_possible:
   - yes
-description: ""
+description: "Any brown algae with blades"
 image: '/header_images/unknown_bbl_outershores.jpg'
 categories:
   - brown algae
@@ -33,6 +33,8 @@ worms_code: 830
 ---
 
 ![](/header_images/unknown_bbl_outershores.jpg)
+PHOTO CREDIT https://theoutershores.com/bio/animals-plants-and-algae/marine-algae/brown-algae-ochrophyta/
+
 
 **Other images:** <!-- Other images with attribution -->
 <br/>

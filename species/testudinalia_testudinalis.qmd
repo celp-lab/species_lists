@@ -1,0 +1,49 @@
+---
+species: "Testudinalia testudinalis"
+accepted_code: "TETE"
+alternate_codes: []
+diminutive: ""
+alternate_diminutives: ["", ""]
+common_name: "Tortoise limpet"
+field_id_possible:
+  - yes
+description: "Coarse pinnate hydroid often found on boulders or epiphytically"
+image: '/header_images/testudinalia_testudinalis.jpg'
+categories:
+  - gastropods
+sampling_programs:
+    - keen_upc
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+habitat:
+  - intertidal
+  - subtidal
+mobility:
+  - sessile
+sampling_region:
+  - GOM
+  - Virginian
+catami_code: 
+catami_version: "1.4"
+worms_code: 234208 
+---
+
+![](/header_images/testudinalia_testudinalis.jpg)
+
+Photo from O. F. Müller via [WORMS](https://www.marinespecies.org/aphia.php?p=image&pic=171497&tid=234208)
+
+**Other images:** '/images/TETE_O.F. Müller_worms.jpg'
+<br/>
+
+**Distinguishing features:** Plate limpet that is the shape of a flat cone and can have checkered, radiating lines. Often has a tortoise shell like appearance.
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
+<br/>
+
+**Easily confused species and differentiation:** 
+
+<br/>
+
+**Extended Description:** Sea snail that is found attached to hard substrate in both the intertidal and subtidal. 
+
+**[WORMS page](https://www.marinespecies.org/aphia.php?p=taxdetails&id=234208)**

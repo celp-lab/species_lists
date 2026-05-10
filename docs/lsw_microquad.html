@@ -286,24 +286,34 @@ window.Quarto = {
 
 
 <div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
-<div class="species-filter-bar">
-  <button class="species-filter-btn active" onclick="filterSpecies('', this)">All</button>
-  
-    <button class="species-filter-btn" onclick="filterSpecies('brown algae', this)">brown algae</button>
-  
-    <button class="species-filter-btn" onclick="filterSpecies('hydrozoans', this)">hydrozoans</button>
-  
-    <button class="species-filter-btn" onclick="filterSpecies('kelp', this)">kelp</button>
-  
-    <button class="species-filter-btn" onclick="filterSpecies('red algal crusts', this)">red algal crusts</button>
-  
-    <button class="species-filter-btn" onclick="filterSpecies('unknown', this)">unknown</button>
-  
+
+<div class="species-filter-panel">
+
+  <div class="species-filter-group">
+    <span class="species-filter-label">Category</span>
+    <div class="species-filter-bar">
+      <button class="species-filter-btn active" data-field="categories" data-value="" onclick="filterSpecies('categories', '', this)">All</button>
+      
+        <button class="species-filter-btn" data-field="categories" data-value="brown algae" onclick="filterSpecies('categories', 'brown algae', this)">brown algae</button>
+      
+        <button class="species-filter-btn" data-field="categories" data-value="green algae" onclick="filterSpecies('categories', 'green algae', this)">green algae</button>
+      
+        <button class="species-filter-btn" data-field="categories" data-value="hydrozoans" onclick="filterSpecies('categories', 'hydrozoans', this)">hydrozoans</button>
+      
+        <button class="species-filter-btn" data-field="categories" data-value="kelp" onclick="filterSpecies('categories', 'kelp', this)">kelp</button>
+      
+        <button class="species-filter-btn" data-field="categories" data-value="red algal crusts" onclick="filterSpecies('categories', 'red algal crusts', this)">red algal crusts</button>
+      
+        <button class="species-filter-btn" data-field="categories" data-value="unknown" onclick="filterSpecies('categories', 'unknown', this)">unknown</button>
+      
+    </div>
+  </div>
+
 </div>
 
 <div class="list">
 
-  <div class="species-card" data-index="0" data-categories="aHlkcm96b2Fucw==" data-listing-file-modified-sort="1777476490132" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
+  <div class="species-card" data-index="0" data-categories="aHlkcm96b2Fucw==" data-listing-file-modified-sort="1777476490132" data-listing-reading-time-sort="1" data-listing-word-count-sort="48" data-mobility="sessile,mobile" data-sampling_region="GOM,Virginian">
     <div class="species-card-image">
       
         <a href="./species/abietinaria_abietina.html"><img src="./header_images/82275_abietinaria-abietina_Picton_Bernard.jpg" alt="Abietinaria abietina"></a>
@@ -320,6 +330,7 @@ window.Quarto = {
           </span>
         
         
+        
       </div>
       
         <p class="species-description listing-description">Coarse pinnate hydroid often found on boulders or epiphytically</p>
@@ -327,7 +338,7 @@ window.Quarto = {
       
         <div class="species-categories">
           
-            <div class="listing-category category-tag" onclick="window.quartoListingCategory('aHlkcm96b2Fucw=='); return false;">
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'hydrozoans', null); return false;">
               hydrozoans
             </div>
           
@@ -336,7 +347,7 @@ window.Quarto = {
     </div>
   </div>
 
-  <div class="species-card" data-index="1" data-categories="cmVkJTIwYWxnYWwlMjBjcnVzdHM=" data-listing-file-modified-sort="1778169994000" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
+  <div class="species-card" data-index="1" data-categories="cmVkJTIwYWxnYWwlMjBjcnVzdHM=" data-listing-file-modified-sort="1778256791000" data-listing-reading-time-sort="1" data-listing-word-count-sort="35" data-mobility="sessile" data-sampling_region="GOM,Virginian">
     <div class="species-card-image">
       
         <a href="./species/hildenbrandia_rubra.html"><img src="./header_images/hildenbrandia_rubra_inaturalist.jpg" alt="Hildenbrandia rubra"></a>
@@ -353,14 +364,15 @@ window.Quarto = {
           </span>
         
         
+        
       </div>
       
-        <p class="species-description listing-description"><strong>Other images:</strong> ‘/images/hiru_2.jpg’ <br></p>
+        <p class="species-description listing-description">Encrusting calcareous/hard red algae</p>
       
       
         <div class="species-categories">
           
-            <div class="listing-category category-tag" onclick="window.quartoListingCategory('cmVkJTIwYWxnYWwlMjBjcnVzdHM='); return false;">
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'red algal crusts', null); return false;">
               red algal crusts
             </div>
           
@@ -369,7 +381,7 @@ window.Quarto = {
     </div>
   </div>
 
-  <div class="species-card" data-index="2" data-categories="YnJvd24lMjBhbGdhZSUyQ2tlbHA=" data-listing-file-modified-sort="1778094069807" data-listing-reading-time-sort="1" data-listing-word-count-sort="39">
+  <div class="species-card" data-index="2" data-categories="YnJvd24lMjBhbGdhZSUyQ2tlbHA=" data-listing-file-modified-sort="1778094069807" data-listing-reading-time-sort="1" data-listing-word-count-sort="39" data-mobility="sessile" data-sampling_region="GOM,Virginian">
     <div class="species-card-image">
       
         <a href="./species/saccharina_latissima.html"><img src="./header_images/640x427-kelp_sugar_nb_w.jpg" alt="Saccharina latissima"></a>
@@ -384,6 +396,7 @@ window.Quarto = {
             <strong>SL</strong>
              Small Code: <strong> SLJ</strong>
           </span>
+        
         
         
           <span class="code-badge code-alternate">
@@ -401,11 +414,11 @@ window.Quarto = {
       
         <div class="species-categories">
           
-            <div class="listing-category category-tag" onclick="window.quartoListingCategory('YnJvd24lMjBhbGdhZQ=='); return false;">
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'brown algae', null); return false;">
               brown algae
             </div>
           
-            <div class="listing-category category-tag" onclick="window.quartoListingCategory('a2VscA=='); return false;">
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'kelp', null); return false;">
               kelp
             </div>
           
@@ -414,7 +427,7 @@ window.Quarto = {
     </div>
   </div>
 
-  <div class="species-card" data-index="3" data-categories="YnJvd24lMjBhbGdhZSUyQ3Vua25vd24=" data-listing-file-modified-sort="1778179147472" data-listing-reading-time-sort="1" data-listing-word-count-sort="84">
+  <div class="species-card" data-index="3" data-categories="YnJvd24lMjBhbGdhZSUyQ3Vua25vd24=" data-listing-file-modified-sort="1778256724000" data-listing-reading-time-sort="1" data-listing-word-count-sort="86" data-mobility="sessile" data-sampling_region="GOM,Virginian">
     <div class="species-card-image">
       
         <a href="./species/unknown_bbl.html"><img src="./header_images/unknown_bbl_outershores.jpg" alt="Unknown Brown Blade"></a>
@@ -431,18 +444,19 @@ window.Quarto = {
           </span>
         
         
+        
       </div>
       
-        <p class="species-description listing-description"><strong>Other images:</strong> <!-- Other images with attribution --> <br></p>
+        <p class="species-description listing-description">Any brown algae with blades</p>
       
       
         <div class="species-categories">
           
-            <div class="listing-category category-tag" onclick="window.quartoListingCategory('YnJvd24lMjBhbGdhZQ=='); return false;">
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'brown algae', null); return false;">
               brown algae
             </div>
           
-            <div class="listing-category category-tag" onclick="window.quartoListingCategory('dW5rbm93bg=='); return false;">
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'unknown', null); return false;">
               unknown
             </div>
           
@@ -451,7 +465,7 @@ window.Quarto = {
     </div>
   </div>
 
-  <div class="species-card" data-index="4" data-categories="cmVkJTIwYWxnYWwlMjBjcnVzdHMlMkN1bmtub3du" data-listing-file-modified-sort="1778178990946" data-listing-reading-time-sort="1" data-listing-word-count-sort="50">
+  <div class="species-card" data-index="4" data-categories="cmVkJTIwYWxnYWwlMjBjcnVzdHMlMkN1bmtub3du" data-listing-file-modified-sort="1778256820000" data-listing-reading-time-sort="1" data-listing-word-count-sort="50" data-mobility="sessile" data-sampling_region="GOM">
     <div class="species-card-image">
       
         <a href="./species/unknown_cca.html"><img src="./header_images/unknown_coralline_wikipedia.jpg" alt="Unknown Crustose Coralline Algae"></a>
@@ -468,6 +482,7 @@ window.Quarto = {
           </span>
         
         
+        
           <span class="code-badge code-alternate">
             <span class="code-label">Alt</span>
             EC · NGCA
@@ -476,16 +491,16 @@ window.Quarto = {
         
       </div>
       
-        <p class="species-description listing-description"><strong>Other images:</strong> <!-- Other images with attribution --> <br></p>
+        <p class="species-description listing-description">Encrusting calcareous/hard red algae</p>
       
       
         <div class="species-categories">
           
-            <div class="listing-category category-tag" onclick="window.quartoListingCategory('cmVkJTIwYWxnYWwlMjBjcnVzdHM='); return false;">
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'red algal crusts', null); return false;">
               red algal crusts
             </div>
           
-            <div class="listing-category category-tag" onclick="window.quartoListingCategory('dW5rbm93bg=='); return false;">
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'unknown', null); return false;">
               unknown
             </div>
           
@@ -494,7 +509,145 @@ window.Quarto = {
     </div>
   </div>
 
-  <div class="species-card" data-index="5" data-categories="cmVkJTIwYWxnYWwlMjBjcnVzdHMlMkN1bmtub3du" data-listing-file-modified-sort="1778179336584" data-listing-reading-time-sort="1" data-listing-word-count-sort="66">
+  <div class="species-card" data-index="5" data-categories="YnJvd24lMjBhbGdhZSUyQ3JlZCUyMGFsZ2FsJTIwY3J1c3RzJTJDdW5rbm93bg==" data-listing-file-modified-sort="1778256834000" data-listing-reading-time-sort="1" data-listing-word-count-sort="50" data-mobility="sessile" data-sampling_region="GOM,Virginian">
+    <div class="species-card-image">
+      
+        <a href="./species/unknown_bfc.html"><img src="./header_images/unknown_bfc.jpg" alt="Unknown brown fleshy crust"></a>
+      
+    </div>
+    <div class="species-card-body">
+      <a href="./species/unknown_bfc.html"><h3 class="species-name listing-species anchored">Unknown brown fleshy crust</h3></a>
+      <div class="species-codes">
+        
+          <span class="code-badge code-accepted">
+            <span class="code-label">Accepted Code</span>
+            <strong>UBFC</strong>
+            
+          </span>
+        
+        
+        
+          <span class="code-badge code-alternate">
+            <span class="code-label">Alt</span>
+            UFAC
+            
+          </span>
+        
+      </div>
+      
+        <p class="species-description listing-description">Any non-calcareous brown encrusting algae</p>
+      
+      
+        <div class="species-categories">
+          
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'brown algae', null); return false;">
+              brown algae
+            </div>
+          
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'red algal crusts', null); return false;">
+              red algal crusts
+            </div>
+          
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'unknown', null); return false;">
+              unknown
+            </div>
+          
+        </div>
+      
+    </div>
+  </div>
+
+  <div class="species-card" data-index="6" data-categories="YnJvd24lMjBhbGdhZSUyQ2dyZWVuJTIwYWxnYWUlMkNyZWQlMjBhbGdhbCUyMGNydXN0cyUyQ3Vua25vd24=" data-listing-file-modified-sort="1778255188000" data-listing-reading-time-sort="1" data-listing-word-count-sort="71" data-mobility="sessile" data-sampling_region="GOM,Virginian">
+    <div class="species-card-image">
+      
+        <a href="./species/unknown_fac.html"><img src="./header_images/unknown_fac.jpg" alt="Unknown fleshy algal crust"></a>
+      
+    </div>
+    <div class="species-card-body">
+      <a href="./species/unknown_fac.html"><h3 class="species-name listing-species anchored">Unknown fleshy algal crust</h3></a>
+      <div class="species-codes">
+        
+          <span class="code-badge code-accepted">
+            <span class="code-label">Accepted Code</span>
+            <strong>UFAC</strong>
+            
+          </span>
+        
+        
+        
+      </div>
+      
+        <p class="species-description listing-description">Any non-calareous encrusting algae</p>
+      
+      
+        <div class="species-categories">
+          
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'brown algae', null); return false;">
+              brown algae
+            </div>
+          
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'green algae', null); return false;">
+              green algae
+            </div>
+          
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'red algal crusts', null); return false;">
+              red algal crusts
+            </div>
+          
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'unknown', null); return false;">
+              unknown
+            </div>
+          
+        </div>
+      
+    </div>
+  </div>
+
+  <div class="species-card" data-index="7" data-categories="Z3JlZW4lMjBhbGdhZSUyQ3Vua25vd24=" data-listing-file-modified-sort="1778257365000" data-listing-reading-time-sort="1" data-listing-word-count-sort="45" data-mobility="sessile" data-sampling_region="GOM,Virginian">
+    <div class="species-card-image">
+      
+        <a href="./species/unknown_gfc.html"><img src="./header_images/unknown_gfc.jpg" alt="Unknown green fleshy crust"></a>
+      
+    </div>
+    <div class="species-card-body">
+      <a href="./species/unknown_gfc.html"><h3 class="species-name listing-species anchored">Unknown green fleshy crust</h3></a>
+      <div class="species-codes">
+        
+          <span class="code-badge code-accepted">
+            <span class="code-label">Accepted Code</span>
+            <strong>UGFC</strong>
+            
+          </span>
+        
+        
+        
+          <span class="code-badge code-alternate">
+            <span class="code-label">Alt</span>
+            UFAC
+            
+          </span>
+        
+      </div>
+      
+        <p class="species-description listing-description">Any non-calcerous green encrusting algae</p>
+      
+      
+        <div class="species-categories">
+          
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'green algae', null); return false;">
+              green algae
+            </div>
+          
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'unknown', null); return false;">
+              unknown
+            </div>
+          
+        </div>
+      
+    </div>
+  </div>
+
+  <div class="species-card" data-index="8" data-categories="cmVkJTIwYWxnYWwlMjBjcnVzdHMlMkN1bmtub3du" data-listing-file-modified-sort="1778425930520" data-listing-reading-time-sort="1" data-listing-word-count-sort="94" data-mobility="sessile" data-sampling_region="GOM,Virginian">
     <div class="species-card-image">
       
         <a href="./species/unknown_rfc.html"><img src="./header_images/unknown_rfc_uw.jpg" alt="Unknown red fleshy crust"></a>
@@ -511,11 +664,10 @@ window.Quarto = {
           </span>
         
         
+        
           <span class="code-badge code-alternate">
             <span class="code-label">Alt</span>
-            UFRC
-            
-              &nbsp;()
+            UFAC · UFRC
             
           </span>
         
@@ -526,11 +678,11 @@ window.Quarto = {
       
         <div class="species-categories">
           
-            <div class="listing-category category-tag" onclick="window.quartoListingCategory('cmVkJTIwYWxnYWwlMjBjcnVzdHM='); return false;">
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'red algal crusts', null); return false;">
               red algal crusts
             </div>
           
-            <div class="listing-category category-tag" onclick="window.quartoListingCategory('dW5rbm93bg=='); return false;">
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'unknown', null); return false;">
               unknown
             </div>
           
@@ -542,39 +694,51 @@ window.Quarto = {
 </div>
 
 <script>
-function filterSpecies(category, clickedBtn) {
-  // Sync the filter bar button state
-  document.querySelectorAll('.species-filter-btn').forEach(function(btn) {
-    btn.classList.remove('active');
-  });
-  if (clickedBtn) {
-    clickedBtn.classList.add('active');
-  } else {
-    // Called from a card tag — find matching button
-    document.querySelectorAll('.species-filter-btn').forEach(function(btn) {
-      if (btn.textContent.trim() === category) btn.classList.add('active');
+(function() {
+  // Active filters: one selected value per field, '' means All
+  const activeFilters = {
+    categories:      '',
+    mobility:        '',
+    sampling_region: ''
+  };
+
+  window.filterSpecies = function(field, value, clickedBtn) {
+    // Update active filter for this field
+    activeFilters[field] = value;
+
+    // Update button active states for this field's bar only
+    document.querySelectorAll('.species-filter-btn[data-field="' + field + '"]').forEach(function(btn) {
+      btn.classList.toggle('active', btn.getAttribute('data-value') === value);
     });
-  }
 
-  // Also sync Quarto's sidebar category filter
-  if (category === '') {
-    if (window.quartoListingCategory) window.quartoListingCategory('');
-  } else {
-    if (window.quartoListingCategory) window.quartoListingCategory(btoa(encodeURIComponent(category)));
-  }
+    // Apply all active filters combined (AND logic)
+    document.querySelectorAll('.species-card').forEach(function(card) {
+      const visible = Object.entries(activeFilters).every(function([f, v]) {
+        if (v === '') return true; // this filter is set to All — pass
 
-  // Filter cards directly as a fallback
-  document.querySelectorAll('.species-card').forEach(function(card) {
-    if (category === '') {
-      card.style.display = '';
-    } else {
-      const cardCats = card.getAttribute('data-categories') || '';
-      const decoded = decodeURIComponent(atob(cardCats));
-      const matches = decoded.split(',').some(function(c) { return c.trim() === category; });
-      card.style.display = matches ? '' : 'none';
+        if (f === 'categories') {
+          // categories are base64-encoded in data-categories
+          const raw = card.getAttribute('data-categories') || '';
+          if (!raw) return false;
+          try {
+            const decoded = decodeURIComponent(atob(raw));
+            return decoded.split(',').map(s => s.trim()).includes(v);
+          } catch(e) { return false; }
+        } else {
+          // other fields are stored as plain comma-separated data-* attributes
+          const raw = card.getAttribute('data-' + f) || '';
+          return raw.split(',').map(s => s.trim()).includes(v);
+        }
+      });
+      card.style.display = visible ? '' : 'none';
+    });
+
+    // Keep Quarto's sidebar category filter in sync for categories
+    if (field === 'categories' && window.quartoListingCategory) {
+      window.quartoListingCategory(value === '' ? '' : btoa(encodeURIComponent(value)));
     }
-  });
-}
+  };
+})();
 </script>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->

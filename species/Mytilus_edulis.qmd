@@ -9,7 +9,7 @@ field_id_possible:
   - yes
 date: ""
 date-format: " "
-description: "Bivalve with a shell that is blueish-black and elongated with a  narrow end, often forms large beds in the rocky intertidal"
+description: "Bivalve with a blueish-black shell and a narrow end. Often forms large beds in the rocky intertidal."
 image: '/header_images/mytilus_edilus.jpg'
 categories:
   - bivalves
@@ -38,13 +38,13 @@ Photo from Misjel Decleer via [WORMS](https://www.marinespecies.org/aphia.php?p=
 **Other images:** <!-- Other images with attribution -->
 <br/>
 
-**Distinguishing features:** Blueish-black to brown sessile bivalve found in several habitats, including the intertidal and subtidal. Often forms large beds. Attaches to hard substrate using byssal threads.
+**Distinguishing features:** Blueish-black shell with rounded umbo.
 <br/>
 
-**Easily confused species and differentiation:** 
+**Easily confused species and differentiation:** Modiolus modiolus (MOMO)
 
 <br/>
 
-**Extended Description:** <!-- Extended description -->
+**Extended Description:** Found in several habitats, including the intertidal and subtidal. Often forms large beds. Attaches to hard substrate using byssal threads.
 
 **[WORMS page](https://www.marinespecies.org/aphia.php?p=taxdetails&id=140480)**

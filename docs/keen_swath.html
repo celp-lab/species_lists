@@ -286,16 +286,94 @@ window.Quarto = {
 
 
 <div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
-<div class="species-filter-bar">
-  <button class="species-filter-btn active" onclick="filterSpecies('', this)">All</button>
-  
-    <button class="species-filter-btn" onclick="filterSpecies('crustaceans', this)">crustaceans</button>
-  
+
+<div class="species-filter-panel">
+
+  <div class="species-filter-group">
+    <span class="species-filter-label">Category</span>
+    <div class="species-filter-bar">
+      <button class="species-filter-btn active" data-field="categories" data-value="" onclick="filterSpecies('categories', '', this)">All</button>
+      
+        <button class="species-filter-btn" data-field="categories" data-value="crustaceans" onclick="filterSpecies('categories', 'crustaceans', this)">crustaceans</button>
+      
+        <button class="species-filter-btn" data-field="categories" data-value="sea stars" onclick="filterSpecies('categories', 'sea stars', this)">sea stars</button>
+      
+    </div>
+  </div>
+
 </div>
 
 <div class="list">
 
-  <div class="species-card" data-index="0" data-categories="Y3J1c3RhY2VhbnM=" data-listing-file-modified-sort="1778090386087" data-listing-reading-time-sort="1" data-listing-word-count-sort="31">
+  <div class="species-card" data-index="0" data-categories="c2VhJTIwc3RhcnM=" data-listing-file-modified-sort="1778259133000" data-listing-reading-time-sort="1" data-listing-word-count-sort="111" data-mobility="mobile" data-sampling_region="GOM,Virginian">
+    <div class="species-card-image">
+      
+        <a href="./species/asterias_forbesi.html"><img src="./header_images/asterias_forbesi.jpg" alt="Asterias forbesi"></a>
+      
+    </div>
+    <div class="species-card-body">
+      <a href="./species/asterias_forbesi.html"><h3 class="species-name listing-species anchored">Asterias forbesi</h3></a>
+      <div class="species-codes">
+        
+          <span class="code-badge code-accepted">
+            <span class="code-label">Accepted Code</span>
+            <strong>ASFO</strong>
+             Small Code: <strong> ASFOS</strong>
+          </span>
+        
+        
+        
+      </div>
+      
+        <p class="species-description listing-description">Yellowish orange to purple sea star with bright orange madreporite.</p>
+      
+      
+        <div class="species-categories">
+          
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'sea stars', null); return false;">
+              sea stars
+            </div>
+          
+        </div>
+      
+    </div>
+  </div>
+
+  <div class="species-card" data-index="1" data-categories="c2VhJTIwc3RhcnM=" data-listing-file-modified-sort="1778259190000" data-listing-reading-time-sort="1" data-listing-word-count-sort="110" data-mobility="mobile" data-sampling_region="GOM,Virginian">
+    <div class="species-card-image">
+      
+        <a href="./species/asterias_rubens.html"><img src="./header_images/asterias_rubens.jpg" alt="Asterias rubens"></a>
+      
+    </div>
+    <div class="species-card-body">
+      <a href="./species/asterias_rubens.html"><h3 class="species-name listing-species anchored">Asterias rubens</h3></a>
+      <div class="species-codes">
+        
+          <span class="code-badge code-accepted">
+            <span class="code-label">Accepted Code</span>
+            <strong>ASRU</strong>
+             Small Code: <strong> ASRUS</strong>
+          </span>
+        
+        
+        
+      </div>
+      
+        <p class="species-description listing-description">Varies in color from pale brown or orange/red, to purple. White madreporite.</p>
+      
+      
+        <div class="species-categories">
+          
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'sea stars', null); return false;">
+              sea stars
+            </div>
+          
+        </div>
+      
+    </div>
+  </div>
+
+  <div class="species-card" data-index="2" data-categories="Y3J1c3RhY2VhbnM=" data-listing-file-modified-sort="1778090386087" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-mobility="mobile" data-sampling_region="GOM,Virginian">
     <div class="species-card-image">
       
         <a href="./species/carcinus_maenas.html"><img src="./header_images/carcinus_maenas.jpg" alt="Carcinus maenas"></a>
@@ -312,6 +390,7 @@ window.Quarto = {
           </span>
         
         
+        
           <span class="code-badge code-alternate">
             <span class="code-label">Alt</span>
             CAMS
@@ -325,7 +404,7 @@ window.Quarto = {
       
         <div class="species-categories">
           
-            <div class="listing-category category-tag" onclick="window.quartoListingCategory('Y3J1c3RhY2VhbnM='); return false;">
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'crustaceans', null); return false;">
               crustaceans
             </div>
           
@@ -337,39 +416,51 @@ window.Quarto = {
 </div>
 
 <script>
-function filterSpecies(category, clickedBtn) {
-  // Sync the filter bar button state
-  document.querySelectorAll('.species-filter-btn').forEach(function(btn) {
-    btn.classList.remove('active');
-  });
-  if (clickedBtn) {
-    clickedBtn.classList.add('active');
-  } else {
-    // Called from a card tag — find matching button
-    document.querySelectorAll('.species-filter-btn').forEach(function(btn) {
-      if (btn.textContent.trim() === category) btn.classList.add('active');
+(function() {
+  // Active filters: one selected value per field, '' means All
+  const activeFilters = {
+    categories:      '',
+    mobility:        '',
+    sampling_region: ''
+  };
+
+  window.filterSpecies = function(field, value, clickedBtn) {
+    // Update active filter for this field
+    activeFilters[field] = value;
+
+    // Update button active states for this field's bar only
+    document.querySelectorAll('.species-filter-btn[data-field="' + field + '"]').forEach(function(btn) {
+      btn.classList.toggle('active', btn.getAttribute('data-value') === value);
     });
-  }
 
-  // Also sync Quarto's sidebar category filter
-  if (category === '') {
-    if (window.quartoListingCategory) window.quartoListingCategory('');
-  } else {
-    if (window.quartoListingCategory) window.quartoListingCategory(btoa(encodeURIComponent(category)));
-  }
+    // Apply all active filters combined (AND logic)
+    document.querySelectorAll('.species-card').forEach(function(card) {
+      const visible = Object.entries(activeFilters).every(function([f, v]) {
+        if (v === '') return true; // this filter is set to All — pass
 
-  // Filter cards directly as a fallback
-  document.querySelectorAll('.species-card').forEach(function(card) {
-    if (category === '') {
-      card.style.display = '';
-    } else {
-      const cardCats = card.getAttribute('data-categories') || '';
-      const decoded = decodeURIComponent(atob(cardCats));
-      const matches = decoded.split(',').some(function(c) { return c.trim() === category; });
-      card.style.display = matches ? '' : 'none';
+        if (f === 'categories') {
+          // categories are base64-encoded in data-categories
+          const raw = card.getAttribute('data-categories') || '';
+          if (!raw) return false;
+          try {
+            const decoded = decodeURIComponent(atob(raw));
+            return decoded.split(',').map(s => s.trim()).includes(v);
+          } catch(e) { return false; }
+        } else {
+          // other fields are stored as plain comma-separated data-* attributes
+          const raw = card.getAttribute('data-' + f) || '';
+          return raw.split(',').map(s => s.trim()).includes(v);
+        }
+      });
+      card.style.display = visible ? '' : 'none';
+    });
+
+    // Keep Quarto's sidebar category filter in sync for categories
+    if (field === 'categories' && window.quartoListingCategory) {
+      window.quartoListingCategory(value === '' ? '' : btoa(encodeURIComponent(value)));
     }
-  });
-}
+  };
+})();
 </script>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->
