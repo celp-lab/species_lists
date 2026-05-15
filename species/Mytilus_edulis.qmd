@@ -1,9 +1,9 @@
 ---
 species: "Mytilus edulis"
 accepted_code: "MYED"
-alternate_codes: []
-diminutive: ""
-alternate_diminutives: ["", ""]
+alternate_codes: 
+diminutive: 
+alternate_diminutives: 
 common_name: "Blue Mussel"
 field_id_possible:
   - yes
@@ -33,6 +33,7 @@ worms_code: 140480
 ---
 
 ![](/header_images/mytilus_edilus.jpg)
+<br/>
 Photo from Misjel Decleer via [WORMS](https://www.marinespecies.org/aphia.php?p=image&pic=141320&tid=140480)
 
 **Other images:** <!-- Other images with attribution -->

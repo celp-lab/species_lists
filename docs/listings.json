@@ -2,6 +2,7 @@
   {
     "listing": "/bhi_rov.html",
     "items": [
+      "/species/agarum_clathratum.html",
       "/species/asterias_forbesi.html",
       "/species/asterias_rubens.html",
       "/species/carcinus_maenas.html",
@@ -17,6 +18,7 @@
     "listing": "/rocky_subtidal.html",
     "items": [
       "/species/abietinaria_abietina.html",
+      "/species/agarum_clathratum.html",
       "/species/asterias_forbesi.html",
       "/species/asterias_rubens.html",
       "/species/carcinus_maenas.html",
@@ -59,6 +61,7 @@
     "listing": "/lsw_quads.html",
     "items": [
       "/species/abietinaria_abietina.html",
+      "/species/agarum_clathratum.html",
       "/species/ascophyllum_noodsum.html",
       "/species/carcinus_maenas.html",
       "/species/hildenbrandia_rubra.html",
@@ -92,6 +95,7 @@
     "listing": "/all.html",
     "items": [
       "/species/abietinaria_abietina.html",
+      "/species/agarum_clathratum.html",
       "/species/ascophyllum_noodsum.html",
       "/species/asterias_forbesi.html",
       "/species/asterias_rubens.html",
@@ -115,6 +119,7 @@
     "listing": "/keen_upc.html",
     "items": [
       "/species/abietinaria_abietina.html",
+      "/species/agarum_clathratum.html",
       "/species/ascophyllum_noodsum.html",
       "/species/hildenbrandia_rubra.html",
       "/species/Modiolus_modiolus.html",
@@ -133,6 +138,7 @@
     "listing": "/lsw_microquad.html",
     "items": [
       "/species/abietinaria_abietina.html",
+      "/species/agarum_clathratum.html",
       "/species/hildenbrandia_rubra.html",
       "/species/saccharina_latissima.html",
       "/species/unknown_bbl.html",
@@ -147,6 +153,7 @@
     "listing": "/bhi_quads.html",
     "items": [
       "/species/abietinaria_abietina.html",
+      "/species/agarum_clathratum.html",
       "/species/ascophyllum_noodsum.html",
       "/species/asterias_forbesi.html",
       "/species/asterias_rubens.html",
@@ -169,6 +176,7 @@
   {
     "listing": "/keen_quads.html",
     "items": [
+      "/species/agarum_clathratum.html",
       "/species/asterias_forbesi.html",
       "/species/asterias_rubens.html",
       "/species/carcinus_maenas.html",
@@ -193,6 +201,7 @@
     "listing": "/rocky_intertidal.html",
     "items": [
       "/species/abietinaria_abietina.html",
+      "/species/agarum_clathratum.html",
       "/species/ascophyllum_noodsum.html",
       "/species/asterias_forbesi.html",
       "/species/asterias_rubens.html",

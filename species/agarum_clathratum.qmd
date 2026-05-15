@@ -1,0 +1,52 @@
+---
+species: "Agarum clathratum"
+accepted_code: "AGCL"
+alternate_codes: 
+diminutive: "AGCLJ" 
+alternate_diminutives: "AGJ" 
+common_name: "Shotgun kelp"
+field_id_possible:
+  - yes
+description: "Kelp with many regular holes in the blade, juvenile <5cm" 
+image: '/header_images/Agarum_clathratum_3_mandy_lindberg_seaweeds_alaska.jpg'
+categories:
+  - brown algae
+  - kelp
+sampling_programs:
+    - keen_quad
+    - keen_upc
+    - bhi_quadrat
+    - bhi_rov
+    - lsw_quad
+    - lsw_microquad
+habitat:
+  - intertidal
+  - subtidal
+mobility:
+  - sessile
+sampling_region:
+  - GOM
+  - Virginian
+catami_code: 80300902
+catami_version: "1.4"
+worms_code: 157207
+---
+
+![](/header_images/Agarum_clathratum_3_mandy_lindberg_seaweeds_alaska.jpg)
+<br>
+[Photo from Seaweeds of Alaska by Mandy Lindberg](https://www.seaweedsofalaska.com/species.asp?SeaweedID=18)
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** 
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
+<br/>
+
+**Easily confused species and differentiation:** 
+
+<br/>
+
+**Extended Description:** <!-- Extended description -->
+
+<!-- link to worms page -->

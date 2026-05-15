@@ -1,14 +1,12 @@
 ---
 species: "Hildenbrandia rubra"
 accepted_code: "HIRU"
-alternate_codes: []
-diminutive: ""
-alternate_diminutives: ["", ""]
+alternate_codes: 
+diminutive: 
+alternate_diminutives: 
 common_name: "Red encrusting algae"
 field_id_possible:
   - yes
-date: ""
-date-format: " "
 description: "Encrusting calcareous/hard red algae"
 image: '/header_images/hildenbrandia_rubra_inaturalist.jpg'
 categories:
@@ -33,18 +31,21 @@ worms_code: 145712
 ---
 
 ![](/header_images/hildenbrandia_rubra_inaturalist.jpg)
+<br>
 PHOTO CREDIT: https://www.inaturalist.org/taxa/183033-Hildenbrandia-rubra
 
-**Other images:** '/images/hiru_2.jpg'
+**Other images:** 
+
+![Alt image of hiru](/images/hiru_2.jpg)
 <br/>
 
 **Distinguishing features:** Deep red or brown-ish crust growing synonymous to rocks or hard surfaces. Very thin and without surface markings.
 <br/>
 
-**Easily confused species and differentiation:** URFC
+**Easily confused species and differentiation:** [URFC](/species/unknown_rfc.html)
 
 <br/>
 
 **Extended Description:** <!-- Extended description -->
 
-**[WORMS page]https://www.marinespecies.org/aphia.php?p=taxdetails&id=145712#images**
+**[WORMS page](https://www.marinespecies.org/aphia.php?p=taxdetails&id=145712#images)**
