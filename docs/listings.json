@@ -7,6 +7,7 @@
       "/species/asterias_rubens.html",
       "/species/carcinus_maenas.html",
       "/species/chondrus_crispus.html",
+      "/species/laminaria_digitata.html",
       "/species/mastocarpus_stellatus.html",
       "/species/Modiolus_modiolus.html",
       "/species/Mytilus_edulis.html",
@@ -24,6 +25,7 @@
       "/species/carcinus_maenas.html",
       "/species/chondrus_crispus.html",
       "/species/hildenbrandia_rubra.html",
+      "/species/laminaria_digitata.html",
       "/species/mastocarpus_stellatus.html",
       "/species/Modiolus_modiolus.html",
       "/species/Mytilus_edulis.html",
@@ -40,7 +42,8 @@
   {
     "listing": "/bhi_farms.html",
     "items": [
-      "/species/carcinus_maenas.html"
+      "/species/carcinus_maenas.html",
+      "/species/laminaria_digitata.html"
     ]
   },
   {
@@ -48,7 +51,8 @@
     "items": [
       "/species/asterias_forbesi.html",
       "/species/asterias_rubens.html",
-      "/species/carcinus_maenas.html"
+      "/species/carcinus_maenas.html",
+      "/species/laminaria_digitata.html"
     ]
   },
   {
@@ -65,6 +69,7 @@
       "/species/ascophyllum_noodsum.html",
       "/species/carcinus_maenas.html",
       "/species/hildenbrandia_rubra.html",
+      "/species/laminaria_digitata.html",
       "/species/Mytilus_edulis.html",
       "/species/saccharina_latissima.html",
       "/species/unknown_bbl.html",
@@ -83,6 +88,7 @@
       "/species/asterias_rubens.html",
       "/species/carcinus_maenas.html",
       "/species/chondrus_crispus.html",
+      "/species/laminaria_digitata.html",
       "/species/mastocarpus_stellatus.html",
       "/species/Modiolus_modiolus.html",
       "/species/Mytilus_edulis.html",
@@ -102,6 +108,7 @@
       "/species/carcinus_maenas.html",
       "/species/chondrus_crispus.html",
       "/species/hildenbrandia_rubra.html",
+      "/species/laminaria_digitata.html",
       "/species/mastocarpus_stellatus.html",
       "/species/Modiolus_modiolus.html",
       "/species/Mytilus_edulis.html",
@@ -122,6 +129,7 @@
       "/species/agarum_clathratum.html",
       "/species/ascophyllum_noodsum.html",
       "/species/hildenbrandia_rubra.html",
+      "/species/laminaria_digitata.html",
       "/species/Modiolus_modiolus.html",
       "/species/Mytilus_edulis.html",
       "/species/saccharina_latissima.html",
@@ -140,6 +148,7 @@
       "/species/abietinaria_abietina.html",
       "/species/agarum_clathratum.html",
       "/species/hildenbrandia_rubra.html",
+      "/species/laminaria_digitata.html",
       "/species/saccharina_latissima.html",
       "/species/unknown_bbl.html",
       "/species/unknown_cca.html",
@@ -160,6 +169,7 @@
       "/species/carcinus_maenas.html",
       "/species/chondrus_crispus.html",
       "/species/hildenbrandia_rubra.html",
+      "/species/laminaria_digitata.html",
       "/species/mastocarpus_stellatus.html",
       "/species/Modiolus_modiolus.html",
       "/species/Mytilus_edulis.html",
@@ -182,6 +192,7 @@
       "/species/carcinus_maenas.html",
       "/species/chondrus_crispus.html",
       "/species/hildenbrandia_rubra.html",
+      "/species/laminaria_digitata.html",
       "/species/mastocarpus_stellatus.html",
       "/species/saccharina_latissima.html",
       "/species/unknown_bbl.html",
@@ -194,7 +205,8 @@
   {
     "listing": "/lsw_camera.html",
     "items": [
-      "/species/carcinus_maenas.html"
+      "/species/carcinus_maenas.html",
+      "/species/laminaria_digitata.html"
     ]
   },
   {
@@ -208,6 +220,7 @@
       "/species/carcinus_maenas.html",
       "/species/chondrus_crispus.html",
       "/species/hildenbrandia_rubra.html",
+      "/species/laminaria_digitata.html",
       "/species/mastocarpus_stellatus.html",
       "/species/Mytilus_edulis.html",
       "/species/saccharina_latissima.html",

@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3e42f8710ffa89fab1fac5676cd561c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-13b4c1af9e6d1f451f222de3dba79446.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-species','listing-accepted_code','listing-alternate_codes','listing-diminutive','listing-alternate_diminutives','listing-description','listing-image','listing-categories','listing-habitat','listing-sampling_programs',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-species","listing-accepted_code","listing-alternate_codes","listing-diminutive","listing-alternate_diminutives","listing-common_name","listing-field_id_possible","listing-description","listing-image","listing-categories","listing-sampling_programs","listing-habitat","listing-mobility","listing-sampling_region","listing-catami_code","listing-catami_version","listing-worms_code","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-date-format"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-species","listing-accepted_code","listing-alternate_codes","listing-diminutive","listing-alternate_diminutives","listing-common_name","listing-field_id_possible","listing-date-format","listing-description","listing-image","listing-categories","listing-sampling_programs","listing-habitat","listing-mobility","listing-sampling_region","listing-catami_code","listing-catami_version","listing-worms_code","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -294,7 +294,11 @@ window.Quarto = {
     <div class="species-filter-bar">
       <button class="species-filter-btn active" data-field="categories" data-value="" onclick="filterSpecies('categories', '', this)">All</button>
       
+        <button class="species-filter-btn" data-field="categories" data-value="brown algae" onclick="filterSpecies('categories', 'brown algae', this)">brown algae</button>
+      
         <button class="species-filter-btn" data-field="categories" data-value="crustaceans" onclick="filterSpecies('categories', 'crustaceans', this)">crustaceans</button>
+      
+        <button class="species-filter-btn" data-field="categories" data-value="kelp" onclick="filterSpecies('categories', 'kelp', this)">kelp</button>
       
         <button class="species-filter-btn" data-field="categories" data-value="sea stars" onclick="filterSpecies('categories', 'sea stars', this)">sea stars</button>
       
@@ -373,7 +377,7 @@ window.Quarto = {
     </div>
   </div>
 
-  <div class="species-card" data-index="2" data-categories="Y3J1c3RhY2VhbnM=" data-listing-file-modified-sort="1778090386000" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-mobility="mobile" data-sampling_region="GOM,Virginian">
+  <div class="species-card" data-index="2" data-categories="Y3J1c3RhY2VhbnM=" data-listing-file-modified-sort="1778090386087" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-mobility="mobile" data-sampling_region="GOM,Virginian">
     <div class="species-card-image">
       
         <a href="./species/carcinus_maenas.html"><img src="./header_images/carcinus_maenas.jpg" alt="Carcinus maenas"></a>
@@ -406,6 +410,52 @@ window.Quarto = {
           
             <div class="listing-category category-tag" onclick="filterSpecies('categories', 'crustaceans', null); return false;">
               crustaceans
+            </div>
+          
+        </div>
+      
+    </div>
+  </div>
+
+  <div class="species-card" data-index="3" data-categories="YnJvd24lMjBhbGdhZSUyQ2tlbHA=" data-listing-file-modified-sort="1779130494000" data-listing-reading-time-sort="1" data-listing-word-count-sort="77" data-mobility="sessile" data-sampling_region="GOM,Virginian">
+    <div class="species-card-image">
+      
+        <a href="./species/laminaria_digitata.html"><img src="./header_images/" alt="Laminaria digitata"></a>
+      
+    </div>
+    <div class="species-card-body">
+      <a href="./species/laminaria_digitata.html"><h3 class="species-name listing-species anchored">Laminaria digitata</h3></a>
+      <div class="species-codes">
+        
+          <span class="code-badge code-accepted">
+            <span class="code-label">Accepted Code</span>
+            <strong>LADI</strong>
+             Small Code: <strong> LADIJ</strong>
+          </span>
+        
+        
+        
+          <span class="code-badge code-alternate">
+            <span class="code-label">Alt</span>
+            LD
+            
+              &nbsp;(LDJ)
+            
+          </span>
+        
+      </div>
+      
+        <p class="species-description listing-description">Hand-like kelp. juvenile &lt;10cm</p>
+      
+      
+        <div class="species-categories">
+          
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'brown algae', null); return false;">
+              brown algae
+            </div>
+          
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'kelp', null); return false;">
+              kelp
             </div>
           
         </div>
@@ -868,7 +918,7 @@ window.Quarto = {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><a href="https://www.umb.edu/"><img src=".\images/New_UMB_Logo_news_042522.jpg" class="img-fluid" style="width:50.0%"></a></p>
+<p><a href="https://www.umb.edu/"><img src="./images/New_UMB_Logo_news_042522.jpg" class="img-fluid" style="width:50.0%"></a></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
