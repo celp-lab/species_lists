@@ -10,6 +10,7 @@ field_id_possible:
   - no
 description: "" # make sure to fill this in!
 image: '/header_images/'
+image_credit: '' # MUST have an image credit
 categories:
   - brown algae
   - green algae
@@ -70,9 +71,6 @@ catami_version: "1.4"
 worms_code: 
 ---
 
-![](/header_images/)
-<br>
-PHOTO CREDIT
 
 **Other images:** <!-- Other images with attribution -->
 <br/>

@@ -8,7 +8,8 @@ common_name: "Fingered Kelp"
 field_id_possible:
   - yes
 description: "Hand-like kelp. juvenile <10cm" # make sure to fill this in!
-image: '/header_images/laminaria_digitata_sarahbeecy_small.jpeg'
+image: '/header_images/laminaria_digitata_sarahbeecy.jpg'
+image_credit: 'Photo taken by Sarah Beecy in Small Point, ME.'
 categories:
   - brown algae
   - kelp
@@ -36,9 +37,6 @@ catami_version: "1.4"
 worms_code: 145724
 ---
 
-![](/header_images/laminaria_digitata_sarahbeecy.jpg)
-<br>
-Photo taken by Sarah Beecy in Small Point, ME.
 
 **Other images:** <!-- Other images with attribution -->
 <br/>

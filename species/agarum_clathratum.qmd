@@ -9,6 +9,7 @@ field_id_possible:
   - yes
 description: "Kelp with many regular holes in the blade, juvenile <5cm" 
 image: '/header_images/Agarum_clathratum_3_mandy_lindberg_seaweeds_alaska.jpg'
+image_credit: '[Photo from Seaweeds of Alaska by Mandy Lindberg](https://www.seaweedsofalaska.com/species.asp?SeaweedID=18)'
 categories:
   - brown algae
   - kelp
@@ -32,9 +33,6 @@ catami_version: "1.4"
 worms_code: 157207
 ---
 
-![](/header_images/Agarum_clathratum_3_mandy_lindberg_seaweeds_alaska.jpg)
-<br>
-[Photo from Seaweeds of Alaska by Mandy Lindberg](https://www.seaweedsofalaska.com/species.asp?SeaweedID=18)
 
 **Other images:** <!-- Other images with attribution -->
 <br/>

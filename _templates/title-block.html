@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="/species-listing.css">
+
+<div class="species-before-body">
+  
+<h1><i>$species$</i> 
+  $if(common_name)$
+    - $common_name$
+  $endif$  
+</h1>
+
+$if(description)$
+  <p><b>Description:</b> $description$</p>
+$endif$
+   
+<p><a href="https://www.marinespecies.org/aphia.php?p=taxdetails&id=$worms_code$">Link to WORMS</a>,
+   <a href="https://www.cmar.csiro.au/caab/taxon_report.cfm?caab_code=$catami_code$">Link to CATAMI group</a>
+</p>
+
+<b>Categories:<br></b>
+   <div class="species-categories">
+                $for(categories)$
+                <div class="listing-category category-tag">$categories$</div>
+                $endfor$
+    </div>   
+<br><br>
+
+<img src = "$image$"><br>
+<i>$image_credit$</i><br>
+
+</div>
+<br><br>
+<!-- <a href="javascript:history.back()">Go Back</a> -->
