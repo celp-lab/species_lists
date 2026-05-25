@@ -9,6 +9,7 @@ field_id_possible:
   - yes
 description: "Fleshy and red encrusting"
 image: '/header_images/unknown_rfc_uw.jpg'
+image_credit: 'Image from [the FHL Marine Botany page](https://depts.washington.edu/fhl/mb/Hildenbrandia_Ben/habitat.html)'
 categories:
   - red algal crusts
   - unknown
@@ -31,9 +32,6 @@ catami_version: "1.4"
 worms_code: 852
 ---
 
-![](/header_images/unknown_rfc_uw.jpg)
-
-PHOTO CREDIT https://depts.washington.edu/fhl/mb/Hildenbrandia_Ben/habitat.html
 
 **Other images:** <!-- Other images with attribution -->
 <br/>
