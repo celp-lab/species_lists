@@ -8,4 +8,5 @@
 /.quarto/
 **/*.quarto_ipynb
 .positai
-/list_as_of_2026/
+/_lists_as_of_2026/
+debug
