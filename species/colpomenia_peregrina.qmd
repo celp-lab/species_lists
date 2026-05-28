@@ -1,0 +1,52 @@
+---
+species: "Colpomenia peregrina"
+accepted_code: "COPE"
+alternate_codes: # "CODE" for single or ["CODE1", "CODE2"] for >1
+diminutive: #"CODE" # uncomment and fill in if one exists
+alternate_diminutives: # "CODE" for single or ["CODE1", "CODE2"] for >1
+common_name: "Sea potato or Oyster thief"
+field_id_possible:
+  - yes
+description: "Brown algae that forms thin potato-like sacs" # make sure to fill this in!
+image: '/header_images/colpomenia_peregrina_M.D. Guiry_TheSeaweedSite.png'
+image_credit: 'Image by M.D. Guiry from The Seaweed Site' # MUST have an image credit
+categories:
+  - brown algae
+sampling_programs:
+    - keen_quad
+    - keen_upc
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+    - bhi_farms
+    - lsw_quad
+habitat:
+  - intertidal
+  - subtidal
+mobility:
+  - sessile
+sampling_region:
+  - GOM
+  - Virginian
+catami_code: 80 300915
+catami_version: "1.4"
+worms_code: 145856
+---
+
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** Round and puffy potato like sac with thin, easily tearable walls.
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
+<br/>
+
+**Easily confused species and differentiation:** *Leathesia marina* (LEMA), also known as sea cauliflower. *Colpomenia* is a thin sac, while *Leathesia* is stiffer and more brain-like. 
+See [here](https://mainenaturalhistory.org/leathesia-marina-vs-colpomenia-peregrina/) for the definitive guide.
+
+<br/>
+
+**Extended Description:** <!-- Extended description -->
+
+**[WORMS page](https://www.marinespecies.org/aphia.php?p=taxdetails&id=145856)**
+

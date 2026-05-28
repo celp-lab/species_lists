@@ -9,6 +9,7 @@ field_id_possible:
   - yes
 description: "Encrusting calcareous/hard red algae"
 image: '/header_images/hildenbrandia_rubra_inaturalist.jpg'
+image_credit: 'PHOTO CREDIT: [Rusty Rock](https://www.inaturalist.org/taxa/183033-Hildenbrandia-rubra)'
 categories:
   - red algal crusts
 sampling_programs:
@@ -30,9 +31,6 @@ catami_version: "1.4"
 worms_code: 145712
 ---
 
-![](/header_images/hildenbrandia_rubra_inaturalist.jpg)
-<br>
-PHOTO CREDIT: https://www.inaturalist.org/taxa/183033-Hildenbrandia-rubra
 
 **Other images:** 
 

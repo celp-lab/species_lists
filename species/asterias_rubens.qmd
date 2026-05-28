@@ -9,6 +9,7 @@ field_id_possible:
   - yes
 description: "Varies in color from pale brown or orange/red, to purple. White madreporite."
 image: '/header_images/asterias_rubens.jpg'
+image_credit: 'Photo from Julius A. Ellrich via [WORMS](https://www.marinespecies.org/aphia.php?p=image&pic=126854&tid=123776)'
 categories:
   - sea stars
 sampling_programs:
@@ -30,18 +31,15 @@ catami_version: "1.4"
 worms_code: 123776
 ---
 
-![](/header_images/asterias_rubens.jpg)
 
-Photo from Julius A. Ellrich via [WORMS](https://www.marinespecies.org/aphia.php?p=image&pic=126854&tid=123776)
-
-**Other images:** '/images/asru_2.jpg'
+**Other images:** []('/images/asru_2.jpg')
 <br/>
 
 **Distinguishing features:** Can range in color from yellow/orange to purple. Has five thick arms and spiny skin, though some arms may be missing. A bright white madreporite is the key identifier for this species.
 <!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
 <br/>
 
-**Easily confused species and differentiation:** Asterias forbesi (ASFO).
+**Easily confused species and differentiation:** [Asterias forbesi (ASFO)](/species/asterias_forbesi.html).
 
 <br/>
 

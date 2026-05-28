@@ -9,6 +9,7 @@ field_id_possible:
   - yes
 description: "Yellowish orange to purple sea star with bright orange madreporite."
 image: '/header_images/asterias_forbesi.jpg'
+image_credit: 'Photo from Julius A. Ellrich via [WORMS](https://www.marinespecies.org/aphia.php?p=image&pic=127397&tid=158489)'
 categories:
   - sea stars
 sampling_programs:
@@ -30,11 +31,8 @@ catami_version: "1.4"
 worms_code: 158489
 ---
 
-![](/header_images/asterias_forbesi.jpg)
 
-Photo from Julius A. Ellrich via [WORMS](https://www.marinespecies.org/aphia.php?p=image&pic=127397&tid=158489)
-
-**Other images:** '/images/asfo_2.jpg
+**Other images:** [](/images/asfo_2.jpg)
 <br/>
 
 **Distinguishing features:** Can range in color from yellow/orange to deep purple. Has five thick arms and spiny skin, though some arms may be missing. A bright orange madreporite is the key identifier for this species.

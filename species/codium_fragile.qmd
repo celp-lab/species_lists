@@ -1,0 +1,51 @@
+---
+species: "Codium fragile"
+accepted_code: "COFR"
+alternate_codes: "COF" 
+diminutive: #"CODE" # uncomment and fill in if one exists
+alternate_diminutives: # "CODE" for single or ["CODE1", "CODE2"] for >1
+common_name: "Dead man's fingers"
+field_id_possible:
+  - yes
+description: "Green algae with a thick spongey texture that branches like fingers." # make sure to fill this in!
+image: '/header_images/codium_fragile_Saryu Mae_INat.jpeg'
+image_credit: 'Photo from INaturalist NZ taken by Saryu Mae.' # MUST have an image credit
+categories:
+  - green algae
+sampling_programs:
+    - keen_quad
+    - keen_upc
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+    - bhi_farms
+    - lsw_quad
+habitat:
+  - intertidal
+  - subtidal
+mobility:
+  - sessile
+sampling_region:
+  - GOM
+  - Virginian
+catami_code: CAAB 80 300000
+catami_version: "1.4"
+worms_code: 145086
+---
+
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** Highly branched green algae with a spongy thallus. 
+
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
+<br/>
+
+**Easily confused species and differentiation:** 
+
+<br/>
+
+**Extended Description:** <!-- Extended description -->
+
+**[WORMS page](https://www.marinespecies.org/aphia.php?p=taxdetails&id=145086)**

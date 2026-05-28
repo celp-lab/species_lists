@@ -23,7 +23,6 @@ sampling_programs:
     - bhi_farms
     - lsw_quad
     - lsw_microquad
-    - lsw_videos
 habitat:
   - intertidal
   - subtidal
@@ -50,5 +49,3 @@ worms_code: 145724
 <br/>
 
 **Extended Description:** <!-- Extended description -->
-
-**[WORMS page](https://www.marinespecies.org/aphia.php?p=taxdetails&id=145724)**
