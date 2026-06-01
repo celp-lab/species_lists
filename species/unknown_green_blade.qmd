@@ -8,11 +8,10 @@ common_name: ""
 field_id_possible:
   - no
 description: "bright green color" # make sure to fill this in!
-image: '/header_images/chlotophyta.jpeg'
-image_credit: 'Photo from (https://www.seaweed.ie/algae/chlorophyta.html)' # MUST have an image credit
+image: '/header_images/unid_green_blade.png'
+image_credit: 'Photo from CELP Lab' # MUST have an image credit
 categories:
   - green algae
-  - plants
 sampling_programs:
     - bhi_quadrat
     - bhi_rov

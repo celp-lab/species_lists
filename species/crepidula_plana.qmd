@@ -8,10 +8,10 @@ common_name: "Eastern white slippersnail"
 field_id_possible:
   - yes
 description: "Flat white shell, rarely forms stacks. Use CRSP if you cannot distinguish species."
-image: '/header_images/'
-image_credit: 'Photo by Roberta Miller via [WORMS](https://marinespecies.org/aphia.php?p=image&pic=39243&tid=160230)' # MUST have an image credit
+image: '/header_images/Crepidula_plana.jpg'
+image_credit: 'Photo by Roberta Miller via [WORMS](https://marinespecies.org/aphia.php?p=image&pic=39243&tid=160230)' # MUST have an image credit and link to webpage not image
 categories:
-  - bivalves
+  - gastropods
 sampling_programs:
     - bhi_quadrat
     - bhi_rov

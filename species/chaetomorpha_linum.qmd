@@ -7,7 +7,7 @@ alternate_diminutives:
 common_name: "Spaghetti algae"
 field_id_possible:
   - no
-description: "bright-to-dark tangled hair-like filaments" 
+description: "Bright-to-dark tangled wiry filaments. Like fishing line. Not soft." 
 image: '/header_images/chaetomorpha_linum.jpg'
 image_credit: 'Image by Anna Fricke from' # MUST have an image credit
 categories:

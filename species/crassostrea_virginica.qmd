@@ -1,15 +1,15 @@
 ---
 species: "Crassostrea virginica"
 accepted_code: "CRVI"
-alternate_codes: ""
-diminutive: ""
-alternate_diminutives: ""
+alternate_codes: 
+diminutive: 
+alternate_diminutives: 
 common_name: "Eastern Oyster"
 field_id_possible:
   - yes
 description: "Elongate with a mild curve, can grow to be massive"
-image: '/header_images/'
-image_credit: 'Photo by Yolanda Villacampa via [NMNH](http://n2t.net/ark:/65665/m3cb27e6c0-d13d-43e8-9706-e59d071454b0)' 
+image: '/header_images/Crassostrea_virginica.jpg'
+image_credit: 'Photo by Yolanda Villacampa via [NMNH](https://invasions.si.edu/nemesis/species_summary/79872)' 
 categories:
   - bivalves
 sampling_programs:

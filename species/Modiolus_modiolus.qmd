@@ -7,7 +7,7 @@ alternate_diminutives:
 common_name: "Modiolus modiolus"
 field_id_possible:
   - yes
-description: "Large bivalve with a thick shell and a glossy yellow or brown coloring." # make sure to fill this in!
+description: "Large bivalve with a thick shell and a glossy yellow or brown coloring. Flat umbo." # make sure to fill this in!
 image: '/header_images/modiolus_modiolus.jpg'
 image_credit: 'Photo from IMARES via [WORMS](https://www.marinespecies.org/aphia.php?p=image&pic=1984&tid=140467)'
 categories:

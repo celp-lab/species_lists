@@ -10,7 +10,7 @@ field_id_possible:
   - no
 description: "" # make sure to fill this in!
 image: '/header_images/'
-image_credit: '' # MUST have an image credit
+image_credit: '' # MUST have an image credit and link to webpage NOT just the image
 categories:
   - brown algae
   - green algae
