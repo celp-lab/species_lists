@@ -11,7 +11,29 @@
 $if(description)$
   <p><b>Description:</b> $description$</p>
 $endif$
-   
+
+Code(s): <span class="code-badge code-accepted">$accepted_code$</span>
+
+$if(diminutive)$
+  &nbsp; Small Code: <span class="code-badge code-accepted">$diminutive$</span>
+$endif$
+
+<br><br>
+
+$if(alternate_codes)$
+  Old/Alt Code(s): $for(alternate_codes)$
+   <span class="code-badge code-alternate">$alternate_codes$</span>
+  $endfor$
+$endif$
+
+$if(alternate_diminutives)$
+  &nbsp; Old/Alt Small Code(s): $for(alternate_diminutives)$
+     <span class="code-badge code-alternate">$alternate_diminutives$</span>
+  $endfor$
+$endif$
+
+<br><br>
+
 <p><a href="https://www.marinespecies.org/aphia.php?p=taxdetails&id=$worms_code$">Link to WORMS</a>,
    <a href="https://www.cmar.csiro.au/caab/taxon_report.cfm?caab_code=$catami_code$">Link to CATAMI group</a>
 </p>

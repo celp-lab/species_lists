@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-species','listing-accepted_code','listing-alternate_codes','listing-diminutive','listing-alternate_diminutives','listing-description','listing-image','listing-categories','listing-habitat','listing-sampling_programs',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-species","listing-accepted_code","listing-alternate_codes","listing-diminutive","listing-alternate_diminutives","listing-common_name","listing-field_id_possible","listing-date-format","listing-description","listing-image","listing-categories","listing-sampling_programs","listing-habitat","listing-mobility","listing-sampling_region","listing-catami_code","listing-catami_version","listing-worms_code","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-image_credit"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-species","listing-accepted_code","listing-alternate_codes","listing-diminutive","listing-alternate_diminutives","listing-common_name","listing-field_id_possible","listing-description","listing-image","listing-image_credit","listing-categories","listing-sampling_programs","listing-habitat","listing-mobility","listing-sampling_region","listing-catami_code","listing-catami_version","listing-worms_code","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -298,6 +298,8 @@ window.Quarto = {
       
         <button class="species-filter-btn" data-field="categories" data-value="crustaceans" onclick="filterSpecies('categories', 'crustaceans', this)">crustaceans</button>
       
+        <button class="species-filter-btn" data-field="categories" data-value="fish" onclick="filterSpecies('categories', 'fish', this)">fish</button>
+      
         <button class="species-filter-btn" data-field="categories" data-value="kelp" onclick="filterSpecies('categories', 'kelp', this)">kelp</button>
       
         <button class="species-filter-btn" data-field="categories" data-value="sea stars" onclick="filterSpecies('categories', 'sea stars', this)">sea stars</button>
@@ -309,7 +311,7 @@ window.Quarto = {
 
 <div class="list">
 
-  <div class="species-card" data-index="0" data-categories="c2VhJTIwc3RhcnM=" data-listing-file-modified-sort="1779995316190" data-listing-reading-time-sort="1" data-listing-word-count-sort="105" data-mobility="mobile" data-sampling_region="GOM,Virginian">
+  <div class="species-card" data-index="0" data-categories="c2VhJTIwc3RhcnM=" data-listing-file-modified-sort="1780345882249" data-listing-reading-time-sort="1" data-listing-word-count-sort="105" data-mobility="mobile" data-sampling_region="GOM,Virginian">
     <div class="species-card-image">
       
         <a href="./species/asterias_forbesi.html"><img src="./header_images/asterias_forbesi.jpg" alt="Asterias forbesi"></a>
@@ -377,7 +379,7 @@ window.Quarto = {
     </div>
   </div>
 
-  <div class="species-card" data-index="2" data-categories="Y3J1c3RhY2VhbnM=" data-listing-file-modified-sort="1778090386087" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-mobility="mobile" data-sampling_region="GOM,Virginian">
+  <div class="species-card" data-index="2" data-categories="Y3J1c3RhY2VhbnM=" data-listing-file-modified-sort="1780345943652" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-mobility="mobile" data-sampling_region="GOM,Virginian">
     <div class="species-card-image">
       
         <a href="./species/carcinus_maenas.html"><img src="./header_images/carcinus_maenas.jpg" alt="Carcinus maenas"></a>
@@ -395,12 +397,6 @@ window.Quarto = {
         
         
         
-          <span class="code-badge code-alternate">
-            <span class="code-label">Alt</span>
-            CAMS
-            
-          </span>
-        
       </div>
       
         <p class="species-description listing-description">Dark and mottled shell</p>
@@ -417,7 +413,115 @@ window.Quarto = {
     </div>
   </div>
 
-  <div class="species-card" data-index="3" data-categories="YnJvd24lMjBhbGdhZSUyQ2tlbHA=" data-listing-file-modified-sort="1779995487602" data-listing-reading-time-sort="1" data-listing-word-count-sort="68" data-mobility="sessile" data-sampling_region="GOM,Virginian">
+  <div class="species-card" data-index="3" data-categories="c2VhJTIwc3RhcnM=" data-listing-file-modified-sort="1780343746000" data-listing-reading-time-sort="1" data-listing-word-count-sort="37" data-mobility="mobile" data-sampling_region="GOM">
+    <div class="species-card-image">
+      
+        <a href="./species/crossaster_papposus.html"><img src="./header_images/crossaster_papposus.jpg" alt="Crossaster papposus"></a>
+      
+    </div>
+    <div class="species-card-body">
+      <a href="./species/crossaster_papposus.html"><h3 class="species-name listing-species anchored">Crossaster papposus</h3></a>
+      <div class="species-codes">
+        
+          <span class="code-badge code-accepted">
+            <span class="code-label">Accepted Code</span>
+            <strong>CRPA</strong>
+             Small Code: <strong> CRPAS</strong>
+          </span>
+        
+        
+        
+      </div>
+      
+        <p class="species-description listing-description">10-12 arms with large central disc</p>
+      
+      
+        <div class="species-categories">
+          
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'sea stars', null); return false;">
+              sea stars
+            </div>
+          
+        </div>
+      
+    </div>
+  </div>
+
+  <div class="species-card" data-index="4" data-categories="ZmlzaA==" data-listing-file-modified-sort="1780339445000" data-listing-reading-time-sort="1" data-listing-word-count-sort="37" data-mobility="mobile" data-sampling_region="GOM">
+    <div class="species-card-image">
+      
+        <a href="./species/cyclopterus_lumpus.html"><img src="./header_images/cyclopterus_lumpus.jpg" alt="Cyclopterus lumpus"></a>
+      
+    </div>
+    <div class="species-card-body">
+      <a href="./species/cyclopterus_lumpus.html"><h3 class="species-name listing-species anchored">Cyclopterus lumpus</h3></a>
+      <div class="species-codes">
+        
+          <span class="code-badge code-accepted">
+            <span class="code-label">Accepted Code</span>
+            <strong>CYLU</strong>
+            
+          </span>
+        
+        
+        
+      </div>
+      
+        <p class="species-description listing-description">Stout, round fish with bumpy appearance and modified suction-cup pelvic fins</p>
+      
+      
+        <div class="species-categories">
+          
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'fish', null); return false;">
+              fish
+            </div>
+          
+        </div>
+      
+    </div>
+  </div>
+
+  <div class="species-card" data-index="5" data-categories="Y3J1c3RhY2VhbnM=" data-listing-file-modified-sort="1780356453201" data-listing-reading-time-sort="1" data-listing-word-count-sort="42" data-mobility="mobile" data-sampling_region="GOM,Virginian">
+    <div class="species-card-image">
+      
+        <a href="./species/hemigrapsus_sanguinius.html"><img src="./header_images/Hemigrapsus_sanguineus.jpg" alt="Hemigrapsus sanguineus"></a>
+      
+    </div>
+    <div class="species-card-body">
+      <a href="./species/hemigrapsus_sanguinius.html"><h3 class="species-name listing-species anchored">Hemigrapsus sanguineus</h3></a>
+      <div class="species-codes">
+        
+          <span class="code-badge code-accepted">
+            <span class="code-label">Accepted Code</span>
+            <strong>HESA</strong>
+            
+          </span>
+        
+        
+        
+          <span class="code-badge code-alternate">
+            <span class="code-label">Alt</span>
+            HESN
+            
+          </span>
+        
+      </div>
+      
+        <p class="species-description listing-description">Banded legs and small size</p>
+      
+      
+        <div class="species-categories">
+          
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'crustaceans', null); return false;">
+              crustaceans
+            </div>
+          
+        </div>
+      
+    </div>
+  </div>
+
+  <div class="species-card" data-index="6" data-categories="YnJvd24lMjBhbGdhZSUyQ2tlbHA=" data-listing-file-modified-sort="1780344595303" data-listing-reading-time-sort="1" data-listing-word-count-sort="69" data-mobility="sessile" data-sampling_region="GOM,Virginian">
     <div class="species-card-image">
       
         <a href="./species/laminaria_digitata.html"><img src="./header_images/laminaria_digitata_sarahbeecy.jpg" alt="Laminaria digitata"></a>
@@ -456,6 +560,46 @@ window.Quarto = {
           
             <div class="listing-category category-tag" onclick="filterSpecies('categories', 'kelp', null); return false;">
               kelp
+            </div>
+          
+        </div>
+      
+    </div>
+  </div>
+
+  <div class="species-card" data-index="7" data-categories="Y3J1c3RhY2VhbnM=" data-listing-file-modified-sort="1780356417534" data-listing-reading-time-sort="1" data-listing-word-count-sort="37" data-mobility="mobile" data-sampling_region="GOM">
+    <div class="species-card-image">
+      
+        <a href="./species/Libinia_emarginata.html"><img src="./header_images/Libinia_emarginata.jpeg" alt="Libinia emarginata"></a>
+      
+    </div>
+    <div class="species-card-body">
+      <a href="./species/Libinia_emarginata.html"><h3 class="species-name listing-species anchored">Libinia emarginata</h3></a>
+      <div class="species-codes">
+        
+          <span class="code-badge code-accepted">
+            <span class="code-label">Accepted Code</span>
+            <strong>LIEM</strong>
+            
+          </span>
+        
+        
+        
+          <span class="code-badge code-alternate">
+            <span class="code-label">Alt</span>
+            LIER · LIBS
+            
+          </span>
+        
+      </div>
+      
+        <p class="species-description listing-description">Oval carapice with 9 spines down midrib of top. Use LIBS if you cannot distinguish species.</p>
+      
+      
+        <div class="species-categories">
+          
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'crustaceans', null); return false;">
+              crustaceans
             </div>
           
         </div>

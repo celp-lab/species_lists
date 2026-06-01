@@ -1,0 +1,52 @@
+---
+species: "Fucus spiralis"
+accepted_code: "FUSP"
+alternate_codes: # "CODE" for single or ["CODE1", "CODE2"] for >1
+diminutive: #"CODE" # uncomment and fill in if one exists
+alternate_diminutives: # "CODE" for single or ["CODE1", "CODE2"] for >1
+common_name: "Spiral Wrack"
+field_id_possible:
+  - yes
+description: "Brown algae found in the upper-intertidal with no air bladders, heart-Shaped or globular receptacles, blades that rotate in spiral fashion" # make sure to fill this in!
+image: '/header_images/fucus_spiralis_huxley_seaweedsofcanada.jpg'
+image_credit: 'Image by Huxley from Seaweeds of Canada' # MUST have an image credit
+categories:
+  - brown algae
+sampling_programs:
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+    - bhi_farms
+    - lsw_quad
+habitat:
+  - intertidal
+mobility:
+  - sessile
+sampling_region:
+  - GOM
+  - Virginian
+catami_code: 80300904
+catami_version: "1.4"
+worms_code: 145547
+---
+
+
+**Other images:** 
+
+![Alt image of hiru](/images/fucus_spiralis_Marco_seaweedofcanada.jpg)
+<br/>
+Image showing receptacles with a ridge by Marco from Seaweed of Alaska.
+
+**Distinguishing features:** No air bladders. Heart-Shaped or Globular receptacles. Receptacles are swollen, blunt at tip, less than 4 times as long as wide, WITH a distinct rim around the edge. Blades rotate in spiral fashion. Found in the upper intertidal. 
+
+
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
+<br/>
+
+**Easily confused species and differentiation:** *Fucus vessiculousus* (FUVE) and *Fucus distichus* (FUDI). FUVE has paired air bladders, FUDI has no air bladders. Both FUDI and FUVE do not typically FUSP receptacles have a distinct rim around the edge. If unable to differentiate, use mark as *Fucus* Unknown (FUCU).
+
+<br/>
+
+**Extended Description:** <!-- Extended description -->
+
+**[WORMS page](https://marinespecies.org/aphia.php?p=taxdetails&id=145547)**

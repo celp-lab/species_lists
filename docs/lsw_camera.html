@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-species','listing-accepted_code','listing-alternate_codes','listing-diminutive','listing-alternate_diminutives','listing-description','listing-image','listing-categories','listing-habitat','listing-sampling_programs',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-species","listing-accepted_code","listing-alternate_codes","listing-diminutive","listing-alternate_diminutives","listing-common_name","listing-field_id_possible","listing-date-format","listing-description","listing-image","listing-categories","listing-sampling_programs","listing-habitat","listing-mobility","listing-sampling_region","listing-catami_code","listing-catami_version","listing-worms_code","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-species","listing-accepted_code","listing-alternate_codes","listing-diminutive","listing-alternate_diminutives","listing-common_name","listing-field_id_possible","listing-description","listing-image","listing-image_credit","listing-categories","listing-sampling_programs","listing-habitat","listing-mobility","listing-sampling_region","listing-catami_code","listing-catami_version","listing-worms_code","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -296,6 +296,12 @@ window.Quarto = {
       
         <button class="species-filter-btn" data-field="categories" data-value="crustaceans" onclick="filterSpecies('categories', 'crustaceans', this)">crustaceans</button>
       
+        <button class="species-filter-btn" data-field="categories" data-value="fish" onclick="filterSpecies('categories', 'fish', this)">fish</button>
+      
+        <button class="species-filter-btn" data-field="categories" data-value="green algae" onclick="filterSpecies('categories', 'green algae', this)">green algae</button>
+      
+        <button class="species-filter-btn" data-field="categories" data-value="tunicates" onclick="filterSpecies('categories', 'tunicates', this)">tunicates</button>
+      
     </div>
   </div>
 
@@ -303,7 +309,41 @@ window.Quarto = {
 
 <div class="list">
 
-  <div class="species-card" data-index="0" data-categories="Y3J1c3RhY2VhbnM=" data-listing-file-modified-sort="1778090386087" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-mobility="mobile" data-sampling_region="GOM,Virginian">
+  <div class="species-card" data-index="0" data-categories="dHVuaWNhdGVz" data-listing-file-modified-sort="1780343887000" data-listing-reading-time-sort="1" data-listing-word-count-sort="28" data-mobility="sessile" data-sampling_region="GOM,Virginian">
+    <div class="species-card-image">
+      
+        <a href="./species/botryllus_schlosseri.html"><img src="./header_images/Botryllus_schlosseri image .jpg" alt="Botryllus schlosseri"></a>
+      
+    </div>
+    <div class="species-card-body">
+      <a href="./species/botryllus_schlosseri.html"><h3 class="species-name listing-species anchored">Botryllus schlosseri</h3></a>
+      <div class="species-codes">
+        
+          <span class="code-badge code-accepted">
+            <span class="code-label">Accepted Code</span>
+            <strong>BOSC</strong>
+            
+          </span>
+        
+        
+        
+      </div>
+      
+        <p class="species-description listing-description">white zooids, outlined in yellow, forming star-shaped systems. Individual zooidscan be 1.75 mm - 5 mm long.</p>
+      
+      
+        <div class="species-categories">
+          
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'tunicates', null); return false;">
+              tunicates
+            </div>
+          
+        </div>
+      
+    </div>
+  </div>
+
+  <div class="species-card" data-index="1" data-categories="Y3J1c3RhY2VhbnM=" data-listing-file-modified-sort="1780345943652" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-mobility="mobile" data-sampling_region="GOM,Virginian">
     <div class="species-card-image">
       
         <a href="./species/carcinus_maenas.html"><img src="./header_images/carcinus_maenas.jpg" alt="Carcinus maenas"></a>
@@ -321,12 +361,6 @@ window.Quarto = {
         
         
         
-          <span class="code-badge code-alternate">
-            <span class="code-label">Alt</span>
-            CAMS
-            
-          </span>
-        
       </div>
       
         <p class="species-description listing-description">Dark and mottled shell</p>
@@ -336,6 +370,74 @@ window.Quarto = {
           
             <div class="listing-category category-tag" onclick="filterSpecies('categories', 'crustaceans', null); return false;">
               crustaceans
+            </div>
+          
+        </div>
+      
+    </div>
+  </div>
+
+  <div class="species-card" data-index="2" data-categories="Z3JlZW4lMjBhbGdhZQ==" data-listing-file-modified-sort="1780343755000" data-listing-reading-time-sort="1" data-listing-word-count-sort="106" data-mobility="sessile,mobile" data-sampling_region="GOM,Virginian">
+    <div class="species-card-image">
+      
+        <a href="./species/chaetomorpha_linum.html"><img src="./header_images/chaetomorpha_linum.jpg" alt="Chaetomorpha linum"></a>
+      
+    </div>
+    <div class="species-card-body">
+      <a href="./species/chaetomorpha_linum.html"><h3 class="species-name listing-species anchored">Chaetomorpha linum</h3></a>
+      <div class="species-codes">
+        
+          <span class="code-badge code-accepted">
+            <span class="code-label">Accepted Code</span>
+            <strong>CHLI</strong>
+            
+          </span>
+        
+        
+        
+      </div>
+      
+        <p class="species-description listing-description">bright-to-dark tangled hair-like filaments</p>
+      
+      
+        <div class="species-categories">
+          
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'green algae', null); return false;">
+              green algae
+            </div>
+          
+        </div>
+      
+    </div>
+  </div>
+
+  <div class="species-card" data-index="3" data-categories="ZmlzaA==" data-listing-file-modified-sort="1780339445000" data-listing-reading-time-sort="1" data-listing-word-count-sort="37" data-mobility="mobile" data-sampling_region="GOM">
+    <div class="species-card-image">
+      
+        <a href="./species/cyclopterus_lumpus.html"><img src="./header_images/cyclopterus_lumpus.jpg" alt="Cyclopterus lumpus"></a>
+      
+    </div>
+    <div class="species-card-body">
+      <a href="./species/cyclopterus_lumpus.html"><h3 class="species-name listing-species anchored">Cyclopterus lumpus</h3></a>
+      <div class="species-codes">
+        
+          <span class="code-badge code-accepted">
+            <span class="code-label">Accepted Code</span>
+            <strong>CYLU</strong>
+            
+          </span>
+        
+        
+        
+      </div>
+      
+        <p class="species-description listing-description">Stout, round fish with bumpy appearance and modified suction-cup pelvic fins</p>
+      
+      
+        <div class="species-categories">
+          
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'fish', null); return false;">
+              fish
             </div>
           
         </div>

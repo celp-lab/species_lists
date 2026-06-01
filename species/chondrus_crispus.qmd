@@ -8,8 +8,8 @@ common_name: "Irish moss"
 field_id_possible:
   - yes
 description: "Flat blade, flat thalli, fan-like, regular branching, dark purple/red, or yellow/greenish fronds, up to 15cm tall"
-
 image: '/header_images/chondrus_crispus.jpg'
+image_credit: 'Photo from Irene Novaczek via [WORMS](https://www.marinespecies.org/aphia.php?p=image&pic=127585&tid=145625)'
 categories:
   - erect red algae
 sampling_programs:
@@ -30,9 +30,6 @@ catami_version: "1.4"
 worms_code: 145625
 ---
 
-![](/header_images/chondrus_crispus.jpg)
-
-Photo from Irene Novaczek via [WORMS](https://www.marinespecies.org/aphia.php?p=image&pic=127585&tid=145625)
 
 **Other images:** 
 <br/>
@@ -47,5 +44,3 @@ Photo from Irene Novaczek via [WORMS](https://www.marinespecies.org/aphia.php?p=
 
 **Extended Description:** Can be found intertidally or in the shallow subtidal. When reproductive, it will have oval shaped bumps on the edges.
 <!-- Extended description -->
-
-**[WORMS page](https://www.marinespecies.org/aphia.php?p=taxdetails&id=145625)**

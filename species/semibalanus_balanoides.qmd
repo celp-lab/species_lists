@@ -1,0 +1,48 @@
+---
+species: "Semibalanus balanoides"
+accepted_code: "SEBA"
+alternate_codes: # "barnacle_SEBA" 
+diminutive: 
+alternate_diminutives:
+common_name: "acorn barnacles"
+field_id_possible:
+  - yes
+description: "Diamond shaped opercular aperture and a membranous shell base. Can be up to 15 mm in diameter." # make sure to fill this in!
+image: '/header_images/Semibalanus balanoides.jpg'
+image_credit: 'Photo from Ellrich, Julius. (https://www.marinespecies.org/aphia.php?p=image&pic=112767&tid=106210)' # MUST have an image credit
+categories:
+  - crustaceans
+sampling_programs:
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+    - bhi_farms
+    - lsw_quad
+    - lsw_microquad
+habitat:
+  - intertidal
+mobility:
+  - sessile
+sampling_region:
+  - GOM
+  - Virginian
+catami_code: 27500000
+catami_version: "1.4"
+worms_code: 106210
+---
+
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** 
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) --> 
+<br/>
+
+**Easily confused species and differentiation:** distinguished from other barnacles by the presence of a diamond shaped opercular aperture 
+
+<br/>
+
+**Extended Description:** <!-- Extended description -->
+
+<!-- link to worms page --> [WORMS PAGE](https://www.marinespecies.org/aphia.php?p=taxdetails&id=106210)

@@ -1,0 +1,47 @@
+---
+species: "Crepidula fornicata"
+accepted_code: "CRFO"
+alternate_codes: ["CF", "CRSP"]
+diminutive: ""
+alternate_diminutives: ""
+common_name: "Slipper snail"
+field_id_possible:
+  - yes
+description: "Small with white/brownish markings, often found in curved stacks of multiple individuals. Use CRSP if you cannot distinguish species"
+image: '/header_images/Crepidula_fornicata.jpg'
+image_credit: 'Photo by Misjel Decleer via [WORMS](https://www.marinespecies.org/aphia.php?p=image&pic=138566&tid=138963)' # MUST have an image credit
+categories:
+  - gastropods
+sampling_programs:
+    - keen_upc
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+    - bhi_farms
+habitat:
+  - intertidal
+  - subtidal
+mobility:
+  - mobile
+sampling_region:
+  - GOM
+catami_code: ""
+catami_version: "1.4"
+worms_code: "138963"
+---
+
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** 
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
+<br/>
+
+**Easily confused species and differentiation:** 
+
+<br/>
+
+**Extended Description:** <!-- Extended description -->
+
+<!-- link to worms page -->

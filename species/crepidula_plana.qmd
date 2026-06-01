@@ -1,0 +1,46 @@
+---
+species: "Crepidula plana"
+accepted_code: "CRPL"
+alternate_codes: "CRSP"
+diminutive: ""
+alternate_diminutives: ""
+common_name: "Eastern white slippersnail"
+field_id_possible:
+  - yes
+description: "Flat white shell, rarely forms stacks. Use CRSP if you cannot distinguish species."
+image: '/header_images/'
+image_credit: 'Photo by Roberta Miller via [WORMS](https://marinespecies.org/aphia.php?p=image&pic=39243&tid=160230)' # MUST have an image credit
+categories:
+  - bivalves
+sampling_programs:
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+    - bhi_farms
+habitat:
+  - intertidal
+  - subtidal
+mobility:
+  - mobile
+sampling_region:
+  - GOM
+catami_code: ""
+catami_version: "1.4"
+worms_code: "160230"
+---
+
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** 
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
+<br/>
+
+**Easily confused species and differentiation:** 
+
+<br/>
+
+**Extended Description:** <!-- Extended description -->
+
+<!-- link to worms page -->

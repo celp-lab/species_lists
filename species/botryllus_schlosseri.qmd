@@ -1,0 +1,51 @@
+---
+species: "Botryllus schlosseri"
+accepted_code: "BOSC"
+alternate_codes: # "tunicate_BOSC" 
+diminutive: 
+alternate_diminutives: 
+common_name: "golden star tunicate"
+field_id_possible:
+  - yes
+description: "white zooids, outlined in yellow, forming star-shaped systems. Individual zooidscan be 1.75 mm - 5 mm long." 
+image: '/header_images/Botryllus_schlosseri image .jpg'
+image_credit: 'Photo from Joel Sartore (https://www.joelsartore.com/inv006-00008/)' 
+categories:
+  - tunicates
+sampling_programs:
+    - keen_upc
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+    - bhi_farms
+    - lsw_quad
+    - lsw_microquad
+    - lsw_videos
+habitat:
+  - intertidal
+  - subtidal
+mobility:
+  - sessile
+sampling_region:
+  - GOM
+  - Virginian
+catami_code: 35000901
+catami_version: "1.4"
+worms_code: 103862
+---
+
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** 
+white zooids, outlined in yellow, forming star-shaped systems.
+<br/>
+
+**Easily confused species and differentiation:** 
+
+<br/>
+
+**Extended Description:** <!-- Extended description -->
+
+[WORMS page](https://www.marinespecies.org/aphia.php?p=taxdetails&id=103862)

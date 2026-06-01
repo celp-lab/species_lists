@@ -1,0 +1,48 @@
+---
+species: "Verrucaria sp."
+accepted_code: "VERR"
+alternate_codes: # "fungi_encrusting_VERR"
+diminutive: 
+alternate_diminutives: 
+common_name: ""
+field_id_possible:
+  - yes
+description: "pale grey, black, or brown crust" 
+image: '/header_images/Verrucaria sp..jpg'
+image_credit: 'David Nicholls; Barlestone Church; 01 February 2022;' 
+categories:
+  - fungi
+sampling_programs:
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+    - bhi_farms
+    - lsw_quad
+    - lsw_microquad
+habitat:
+  - intertidal
+mobility:
+  - sessile
+sampling_region:
+  - GOM
+  - Virginian
+catami_code: 
+catami_version: "1.4"
+worms_code: 147701
+---
+
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** 
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
+<br/>
+
+**Easily confused species and differentiation:** 
+
+<br/>
+
+**Extended Description:** <!-- Extended description -->
+
+[WORMS page](https://www.marinespecies.org/aphia.php?p=taxdetails&id=147701#sources) 

@@ -1,0 +1,41 @@
+---
+species: "Cystoclonium purpureum"
+accepted_code: "CYPU"
+alternate_codes: ""
+diminutive: ""
+alternate_diminutives: ""
+common_name: "Purple claw weed"
+field_id_possible:
+  - yes
+description: "Bristly, cylindrical fronds, short branches or curly tendrils" # make sure to fill this in!
+image: '/header_images/cystoclonium_purpureum.jpg'
+image_credit: 'Photo from [Seaweed.ie](https://www.seaweed.ie/descriptions/Cystoclonium_purpureum.php)'
+categories:
+  - erect red algae
+sampling_programs:
+    - keen_quad
+habitat:
+  - intertidal
+  - subtidal
+mobility:
+  - sessile
+sampling_region:
+  - GOM
+catami_code: ""
+catami_version: "1.4"
+worms_code: "145615"
+---
+
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** 
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
+<br/>
+
+**Easily confused species and differentiation:** 
+
+<br/>
+
+**Extended Description:** <!-- Extended description -->

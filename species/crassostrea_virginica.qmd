@@ -1,0 +1,49 @@
+---
+species: "Crassostrea virginica"
+accepted_code: "CRVI"
+alternate_codes: ""
+diminutive: ""
+alternate_diminutives: ""
+common_name: "Eastern Oyster"
+field_id_possible:
+  - yes
+description: "Elongate with a mild curve, can grow to be massive"
+image: '/header_images/'
+image_credit: 'Photo by Yolanda Villacampa via [NMNH](http://n2t.net/ark:/65665/m3cb27e6c0-d13d-43e8-9706-e59d071454b0)' 
+categories:
+  - bivalves
+sampling_programs:
+    - keen_upc
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+    - bhi_farms
+habitat:
+  - intertidal
+  - subtidal
+  - marsh
+mobility:
+  - sessile
+sampling_region:
+  - GOM
+  - Virginian
+catami_code: "23000000"
+catami_version: "1.4"
+worms_code: "140657"
+---
+
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** 
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
+<br/>
+
+**Easily confused species and differentiation:** 
+
+<br/>
+
+**Extended Description:** <!-- Extended description -->
+
+<!-- link to worms page -->

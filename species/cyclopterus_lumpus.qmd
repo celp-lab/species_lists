@@ -1,0 +1,43 @@
+---
+species: "Cyclopterus lumpus"
+accepted_code: "CYLU"
+alternate_codes: ""
+diminutive: ""
+alternate_diminutives: ""
+common_name: "Lumpfish"
+field_id_possible:
+  - yes
+description: "Stout, round fish with bumpy appearance and modified suction-cup pelvic fins"
+image: '/header_images/cyclopterus_lumpus.jpg'
+image_credit: 'Photo from Heinz Wiele via [WORMS](https://www.marinespecies.org/aphia.php?p=image&pic=40172&tid=127214)'
+categories:
+  - fish
+sampling_programs:
+    - keen_swath
+    - lsw_videos
+habitat:
+  - subtidal
+mobility:
+  - mobile
+sampling_region:
+  - GOM
+catami_code: ""
+catami_version: "1.4"
+worms_code: "127214"
+---
+
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** 
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
+<br/>
+
+**Easily confused species and differentiation:** 
+
+<br/>
+
+**Extended Description:** <!-- Extended description -->
+
+<!-- link to worms page -->

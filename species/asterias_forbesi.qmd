@@ -1,7 +1,7 @@
 ---
 species: "Asterias forbesi"
 accepted_code: "ASFO"
-alternate_codes: []
+alternate_codes: 
 diminutive: "ASFOS"
 alternate_diminutives:
 common_name: "Forbes Star"

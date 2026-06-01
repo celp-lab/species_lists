@@ -1,0 +1,48 @@
+---
+species: "Crossaster papposus"
+accepted_code: "CRPA"
+alternate_codes: ""
+diminutive: "CRPAS"
+alternate_diminutives: ""
+common_name: "Common/spiny sun star"
+field_id_possible:
+  - yes
+description: "10-12 arms with large central disc"
+image: '/header_images/crossaster_papposus.jpg'
+image_credit: 'Photo by Neil McDaniel via [WORMS](https://www.marinespecies.org/aphia.php?p=image&pic=116434&tid=124154)'
+categories:
+  - sea stars
+sampling_programs:
+    - keen_quad
+    - keen_swath
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+    - bhi_farms
+habitat:
+  - intertidal
+  - subtidal
+mobility:
+  - mobile
+sampling_region:
+  - GOM
+catami_code: 
+catami_version: "1.4"
+worms_code: "124154"
+---
+
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** 
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
+<br/>
+
+**Easily confused species and differentiation:** 
+
+<br/>
+
+**Extended Description:** <!-- Extended description -->
+
+<!-- link to worms page -->

@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-species','listing-accepted_code','listing-alternate_codes','listing-diminutive','listing-alternate_diminutives','listing-description','listing-image','listing-categories','listing-habitat',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-species","listing-accepted_code","listing-alternate_codes","listing-diminutive","listing-alternate_diminutives","listing-common_name","listing-field_id_possible","listing-date-format","listing-description","listing-image","listing-categories","listing-sampling_programs","listing-habitat","listing-mobility","listing-sampling_region","listing-catami_code","listing-catami_version","listing-worms_code","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-species","listing-accepted_code","listing-alternate_codes","listing-diminutive","listing-alternate_diminutives","listing-common_name","listing-field_id_possible","listing-description","listing-image","listing-image_credit","listing-categories","listing-sampling_programs","listing-habitat","listing-mobility","listing-sampling_region","listing-catami_code","listing-catami_version","listing-worms_code","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -294,7 +294,11 @@ window.Quarto = {
     <div class="species-filter-bar">
       <button class="species-filter-btn active" data-field="categories" data-value="" onclick="filterSpecies('categories', '', this)">All</button>
       
+        <button class="species-filter-btn" data-field="categories" data-value="bivalves" onclick="filterSpecies('categories', 'bivalves', this)">bivalves</button>
+      
         <button class="species-filter-btn" data-field="categories" data-value="crustaceans" onclick="filterSpecies('categories', 'crustaceans', this)">crustaceans</button>
+      
+        <button class="species-filter-btn" data-field="categories" data-value="green algae" onclick="filterSpecies('categories', 'green algae', this)">green algae</button>
       
     </div>
   </div>
@@ -303,7 +307,7 @@ window.Quarto = {
 
 <div class="list">
 
-  <div class="species-card" data-index="0" data-categories="Y3J1c3RhY2VhbnM=" data-listing-file-modified-sort="1778090386087" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-mobility="mobile" data-sampling_region="GOM,Virginian">
+  <div class="species-card" data-index="0" data-categories="Y3J1c3RhY2VhbnM=" data-listing-file-modified-sort="1780345943652" data-listing-reading-time-sort="1" data-listing-word-count-sort="31" data-mobility="mobile" data-sampling_region="GOM,Virginian">
     <div class="species-card-image">
       
         <a href="./species/carcinus_maenas.html"><img src="./header_images/carcinus_maenas.jpg" alt="Carcinus maenas"></a>
@@ -321,15 +325,117 @@ window.Quarto = {
         
         
         
+      </div>
+      
+        <p class="species-description listing-description">Dark and mottled shell</p>
+      
+      
+        <div class="species-categories">
+          
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'crustaceans', null); return false;">
+              crustaceans
+            </div>
+          
+        </div>
+      
+    </div>
+  </div>
+
+  <div class="species-card" data-index="1" data-categories="Z3JlZW4lMjBhbGdhZQ==" data-listing-file-modified-sort="1780343755000" data-listing-reading-time-sort="1" data-listing-word-count-sort="106" data-mobility="sessile,mobile" data-sampling_region="GOM,Virginian">
+    <div class="species-card-image">
+      
+        <a href="./species/chaetomorpha_linum.html"><img src="./header_images/chaetomorpha_linum.jpg" alt="Chaetomorpha linum"></a>
+      
+    </div>
+    <div class="species-card-body">
+      <a href="./species/chaetomorpha_linum.html"><h3 class="species-name listing-species anchored">Chaetomorpha linum</h3></a>
+      <div class="species-codes">
+        
+          <span class="code-badge code-accepted">
+            <span class="code-label">Accepted Code</span>
+            <strong>CHLI</strong>
+            
+          </span>
+        
+        
+        
+      </div>
+      
+        <p class="species-description listing-description">bright-to-dark tangled hair-like filaments</p>
+      
+      
+        <div class="species-categories">
+          
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'green algae', null); return false;">
+              green algae
+            </div>
+          
+        </div>
+      
+    </div>
+  </div>
+
+  <div class="species-card" data-index="2" data-categories="Yml2YWx2ZXM=" data-listing-file-modified-sort="1780341048000" data-listing-reading-time-sort="1" data-listing-word-count-sort="37" data-mobility="sessile" data-sampling_region="GOM,Virginian">
+    <div class="species-card-image">
+      
+        <a href="./species/crassostrea_virginica.html"><img src="./header_images/" alt="Crassostrea virginica"></a>
+      
+    </div>
+    <div class="species-card-body">
+      <a href="./species/crassostrea_virginica.html"><h3 class="species-name listing-species anchored">Crassostrea virginica</h3></a>
+      <div class="species-codes">
+        
+          <span class="code-badge code-accepted">
+            <span class="code-label">Accepted Code</span>
+            <strong>CRVI</strong>
+            
+          </span>
+        
+        
+        
+      </div>
+      
+        <p class="species-description listing-description">Elongate with a mild curve, can grow to be massive</p>
+      
+      
+        <div class="species-categories">
+          
+            <div class="listing-category category-tag" onclick="filterSpecies('categories', 'bivalves', null); return false;">
+              bivalves
+            </div>
+          
+        </div>
+      
+    </div>
+  </div>
+
+  <div class="species-card" data-index="3" data-categories="Y3J1c3RhY2VhbnM=" data-listing-file-modified-sort="1780356453201" data-listing-reading-time-sort="1" data-listing-word-count-sort="42" data-mobility="mobile" data-sampling_region="GOM,Virginian">
+    <div class="species-card-image">
+      
+        <a href="./species/hemigrapsus_sanguinius.html"><img src="./header_images/Hemigrapsus_sanguineus.jpg" alt="Hemigrapsus sanguineus"></a>
+      
+    </div>
+    <div class="species-card-body">
+      <a href="./species/hemigrapsus_sanguinius.html"><h3 class="species-name listing-species anchored">Hemigrapsus sanguineus</h3></a>
+      <div class="species-codes">
+        
+          <span class="code-badge code-accepted">
+            <span class="code-label">Accepted Code</span>
+            <strong>HESA</strong>
+            
+          </span>
+        
+        
+        
           <span class="code-badge code-alternate">
             <span class="code-label">Alt</span>
-            CAMS
+            HESN
             
           </span>
         
       </div>
       
-        <p class="species-description listing-description">Dark and mottled shell</p>
+        <p class="species-description listing-description">Banded legs and small size</p>
       
       
         <div class="species-categories">

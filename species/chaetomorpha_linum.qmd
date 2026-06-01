@@ -1,0 +1,54 @@
+---
+species: "Chaetomorpha linum"
+accepted_code: "CHLI"
+alternate_codes: # "algae_CHLI"
+diminutive:
+alternate_diminutives: 
+common_name: "Spaghetti algae"
+field_id_possible:
+  - no
+description: "bright-to-dark tangled hair-like filaments" 
+image: '/header_images/chaetomorpha_linum.jpg'
+image_credit: 'Image by Anna Fricke from' # MUST have an image credit
+categories:
+  - green algae
+sampling_programs:
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+    - bhi_farms
+    - lsw_quad
+    - lsw_microquad
+    - lsw_videos
+    - marsh_quads
+    - marsh_pitfall
+    - marsh_traps
+habitat:
+  - intertidal
+  - subtidal
+  - marsh
+mobility:
+  - sessile
+  - mobile
+sampling_region:
+  - GOM
+  - Virginian
+catami_code: 80300903
+catami_version: "1.4"
+worms_code: 145027
+---
+
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** Bright green, coarse filamentous alga forming tangled mats. Filaments are unbranched and common in sheltered estuaries, tidal pools, and shallow subtidal habitats; often free-floating or loosely attached.
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
+<br/>
+
+**Easily confused species and differentiation:** Cladophora spp. – Branched filaments; C. linum is unbranched. Rhizoclonium spp. – Finer, softer filaments with smaller cells. Ulva intestinalis – Hollow tubular fronds rather than filaments.
+<br/>
+
+**Extended Description:** Unbranched filaments composed of large cylindrical cells that may be several times longer than they are wide. The filaments intertwine to form dense, wool-like masses
+
+**[WORMS page](https://www.marinespecies.org/aphia.php?p=taxdetails&id=145027#images)**

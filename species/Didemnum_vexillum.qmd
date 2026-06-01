@@ -1,0 +1,48 @@
+---
+species: "Didemnum vexillum"
+accepted_code: "DIVE"
+alternate_codes: ""
+diminutive: ""
+alternate_diminutives: ""
+common_name: "Carpet sea squirt or sea vomit"
+field_id_possible:
+  - yes
+description: "Yellow spongy mat" 
+image: '/header_images/didemnum_vexillum.jpg'
+image_credit: 'Photo by Rosana Moreira da Rocha via [WORMS](https://www.marinespecies.org/aphia.php?p=image&pic=105413&tid=250126)' 
+categories:
+  - tunicates
+sampling_programs:
+    - keen_upc
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+    - bhi_farms
+habitat:
+  - intertidal
+  - subtidal
+mobility:
+  - sessile
+  - mobile
+sampling_region:
+  - GOM
+catami_code: "35000901"
+catami_version: "1.4"
+worms_code: "250126"
+---
+
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** 
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
+<br/>
+
+**Easily confused species and differentiation:** 
+
+<br/>
+
+**Extended Description:** <!-- Extended description -->
+
+<!-- link to worms page -->

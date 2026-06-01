@@ -1,0 +1,50 @@
+---
+species: "Hemigrapsus sanguineus"
+accepted_code: "HESA"
+alternate_codes: ["HESN"]
+diminutive:
+alternate_diminutives: 
+common_name: "Invasive crab"
+field_id_possible:
+  - yes
+description: "Banded legs and small size" 
+image: '/header_images/Hemigrapsus_sanguineus.jpg'
+image_credit: 'Photo from Fhilip Nuyttens via [WORMS](https://www.marinespecies.org/aphia.php?p=image&pic=4424&tid=158417)'
+categories:
+  - crustaceans
+sampling_programs:
+    - keen_quad
+    - keen_swath
+    - keen_upc
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+    - bhi_farms
+habitat:
+  - intertidal
+  - subtidal
+  - marsh
+mobility:
+  - mobile
+sampling_region:
+  - GOM
+  - Virginian
+catami_code: 
+catami_version: "1.4"
+worms_code: 158417
+---
+
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** small size, square and flattened shell, bulb like vesicle on the base of the finger on the claw , prefers intertidal zone.
+<br/>
+
+**Easily confused species and differentiation:** 
+
+<br/>
+
+**Extended Description:** <!-- Extended description -->
+
+**[WORMS page](https://www.marinespecies.org/aphia.php?p=image&pic=4424&tid=158417)**

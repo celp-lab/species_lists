@@ -1,9 +1,9 @@
 ---
 species: "Abietinaria abietina"
 accepted_code: "ABAB"
-alternate_codes: []
-diminutive: ""
-alternate_diminutives: ["", ""]
+alternate_codes: 
+diminutive: 
+alternate_diminutives: 
 common_name: "Sea fir"
 field_id_possible:
   - yes

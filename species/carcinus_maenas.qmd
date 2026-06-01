@@ -1,16 +1,15 @@
 ---
 species: "Carcinus maenas"
 accepted_code: "CAMA"
-alternate_codes: ["CAMS"]
+alternate_codes: 
 diminutive: "CAMAJ"
-alternate_diminutives:
+alternate_diminutives: "CAMS"
 common_name: "Green crab"
 field_id_possible:
   - yes
-date: ""
-date-format: " "
 description: "Dark and mottled shell"
 image: '/header_images/carcinus_maenas.jpg'
+image_credit: 'CELP Lab'
 categories:
   - crustaceans
 sampling_programs:
@@ -39,7 +38,6 @@ catami_version: "1.4"
 worms_code: 107381
 ---
 
-![](/header_images/carcinus_maenas.jpg)
 
 **Other images:** <!-- Other images with attribution -->
 <br/>

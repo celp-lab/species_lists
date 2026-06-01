@@ -1,14 +1,15 @@
 ---
 species: "Modiolus modiolus"
 accepted_code: "MOMO"
-alternate_codes: []
+alternate_codes: 
 diminutive: #"CODE" # uncomment and fill in if one exists
-alternate_diminutives: ["", ""]
+alternate_diminutives: 
 common_name: "Modiolus modiolus"
 field_id_possible:
   - yes
 description: "Large bivalve with a thick shell and a glossy yellow or brown coloring." # make sure to fill this in!
 image: '/header_images/modiolus_modiolus.jpg'
+image_credit: 'Photo from IMARES via [WORMS](https://www.marinespecies.org/aphia.php?p=image&pic=1984&tid=140467)'
 categories:
   - bivalves
 sampling_programs:
@@ -28,8 +29,6 @@ catami_version: "1.4"
 worms_code: 140467
 ---
 
-![](/header_images/modiolus_modiolus.jpg)
-Photo from IMARES via [WORMS](https://www.marinespecies.org/aphia.php?p=image&pic=1984&tid=140467)
 
 **Other images:** <!-- Other images with attribution -->
 <br/>

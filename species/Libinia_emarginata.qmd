@@ -1,0 +1,48 @@
+---
+species: "Libinia emarginata"
+accepted_code: "LIEM"
+alternate_codes: ["LIER", "LIBS"]
+diminutive: 
+alternate_diminutives: 
+common_name: "Common/portly spider crab"
+field_id_possible:
+  - yes
+description: "Oval carapice with 9 spines down midrib of top. Use LIBS if you cannot distinguish species."
+image: '/header_images/Libinia_emarginata.jpeg'
+image_credit: 'Photo by Robert Bachand via [Chesapeake Bay Program](https://www.chesapeakebay.net/discover/field-guide/entry/common-spider-crab)' 
+categories:
+  - crustaceans
+sampling_programs:
+    - keen_quad
+    - keen_swath
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+    - bhi_farms
+habitat:
+  - intertidal
+  - subtidal
+mobility:
+  - mobile
+sampling_region:
+  - GOM
+catami_code: 
+catami_version: "1.4"
+worms_code: "158426"
+---
+
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** 
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
+<br/>
+
+**Easily confused species and differentiation:** 
+
+<br/>
+
+**Extended Description:** <!-- Extended description -->
+
+<!-- link to worms page -->
