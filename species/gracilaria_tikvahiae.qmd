@@ -1,0 +1,49 @@
+---
+species: "Gracilaria tikvahiae"
+accepted_code: "GRTI"
+alternate_codes: # "CODE" for single or ["CODE1", "CODE2"] for >1
+diminutive: #"CODE" # uncomment and fill in if one exists
+alternate_diminutives: # "CODE" for single or ["CODE1", "CODE2"] for >1
+common_name: "graceful redweed"
+field_id_possible:
+  - yes
+description: "Red algae with thick red rubes, often branching from central rib, tips have sharp apex" # make sure to fill this in!
+image: '/header_images/Gracilaria_tikvahiae_flickr_JamesStJohn.jpg'
+image_credit: 'Photo by James St John on [flickr](https://www.flickr.com/photos/jsjgeology/23689886804)' # MUST have an image credit and link to webpage NOT just the image
+categories:
+  - erect red algae
+sampling_programs:
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+    - bhi_farms
+    - lsw_quad
+    - lsw_microquad
+habitat:
+  - intertidal
+  - subtidal
+mobility:
+  - sessile
+sampling_region:
+  - GOM
+  - Virginian
+catami_code: 80300903
+catami_version: "1.4"
+worms_code: 157354
+---
+
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** Thick red tubes. Branching from central rib. Tips have a sharp apex.
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
+<br/>
+
+**Easily confused species and differentiation:** *Cystoclonium purpureum* (CYPU) and *Scytosiphon lomentaria* (SCLO). CYPU has large cylindrical branches that are numerous and alternating. CYPU can be either bristly, tapered branches OR long, twisting tendrils. SCLO is clumps of hollow and unbranced reddish-brown tubes in the lower intertidal.
+
+<br/>
+
+**Extended Description:** <!-- Extended description -->
+
+**[WORMS page](https://marinespecies.org/aphia.php?p=taxdetails&id=157354)**

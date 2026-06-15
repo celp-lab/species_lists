@@ -1,0 +1,46 @@
+---
+species: "Pagurus sp."
+accepted_code: "PASP"
+alternate_codes: "" 
+diminutive: ""
+alternate_diminutives: ""
+common_name: "Hermit crab"
+field_id_possible:
+  - yes
+description: "soft asymmetrical abdomens" 
+image: '/header_images/pagurus_sp.jpg'
+image_credit: 'Image by Philippe Guillaume via iNaturalist via https://www.inaturalist.org/taxa/48173-Pagurus' 
+categories:
+  - crustaceans
+sampling_programs:
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+    - bhi_farms
+habitat:
+  - intertidal
+  - subtidal
+mobility:
+  - mobile
+sampling_region:
+  - GOM
+  - Virginian
+catami_code: 
+catami_version: "1.4"
+worms_code: 106854  
+---
+
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** size ranges from a few millimeters to 8 cm, right handed as right pincer is larger and inhabits gastropod shells, a key identifier, can live in upper intertidal to deep sea 
+<br/>
+
+**Easily confused species and differentiation:** 
+
+<br/>
+
+**Extended Description:** <!-- Extended description -->
+
+<!-- link to worms page -->

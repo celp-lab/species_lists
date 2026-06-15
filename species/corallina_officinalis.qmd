@@ -1,0 +1,54 @@
+---
+species: "Corallina officinalis"
+accepted_code: "COOF"
+alternate_codes:
+  - CO
+  - algae_red_CO
+diminutive: null
+alternate_diminutives: null
+common_name: "Coral Weed"
+field_id_possible:
+  - yes
+description: "Pink to purple calcified red algae with rigid, branching fronds resembling miniature coral."
+image: "/header_images/corallina_officinalis.jpg"
+image_credit: "Image taken by Lorrie G. in Rockport, MA from iNaturalist"
+categories:
+  - red algae
+sampling_programs:
+    - keen_quad
+    - keen_swath
+    - keen_upc
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+    - bhi_farms
+    - lsw_quad
+    - lsw_microquad
+    - lsw_videos
+habitat:
+  - intertidal
+  - subtidal
+mobility:
+  - sessile
+sampling_region:
+  - GOM
+  - Virginian
+catami_code: 80300929
+catami_version: "1.4"
+worms_code: 145108
+---
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** Calcified red algae with articulated branches composed of flattened segments joined by flexible joints. Forms low-growing mats on rocky shores, tide pools, and hard substrates. The calcified skeleton gives the alga a hard, brittle texture that distinguishes it from fleshy red algae.
+
+<br/>
+
+**Easily confused species and differentiation:** *Jania* spp. – More delicate and finely branched with cylindrical segments. 
+
+<br/>
+
+**Extended Description:** *Corallina officinalis* is a calcified red alga that forms dense pink, purple, or reddish tufts on shores and in tide pools. This species is highly tolerant of wave exposure and desiccation, making it common in intertidal habitats throughout the North Atlantic. Growth is strongly influenced by the surrounding environment; individuals in exposed, shallow areas often remain only 1–2 cm tall, whereas those inhabiting deeper, sheltered rock pools can occasionally attain lengths of 15–20 cm. The complex branching structure provides habitat and refuge for numerous small invertebrates and juvenile marine organisms. Due to its calcium carbonate skeleton, *C. officinalis* plays an important role in habitat formation and contributes to coastal ecosystem structure.
+
+**[WORMS page](https://www.marinespecies.org/aphia.php?p=taxdetails&id=145108)**

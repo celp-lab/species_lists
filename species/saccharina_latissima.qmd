@@ -47,5 +47,5 @@ worms_code: 234483
 
 **Extended Description:** <!-- Extended description -->
 
-<!-- link to worms page -->
+**[WORMS page](https://www.marinespecies.org/aphia.php?p=taxdetails&id=234483)**
 

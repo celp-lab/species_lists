@@ -1,0 +1,53 @@
+---
+species: "Littorina obtusata"
+accepted_code: "LIOB"
+alternate_codes: 
+diminutive: 
+alternate_diminutives: 
+common_name: "Yellow Periwinkle or Flat Periwinkle"
+field_id_possible:
+  - yes
+description: "Small marine gastropod with a brightly colored yellow to yellow-green shell"
+image: '/header_images/Littorina_obtusata_GuernseyAlderney_worms.jpg'
+image_credit: 'Photo from Alderney Guernsey via [WORMS](https://malacopics.nl/showimage.php?malacopicname=Littorinidae&image=Littorina%20obtusata%20(f)%20aurantia%20(4).jpg)'
+categories:
+  - gastropods
+sampling_programs:
+    - keen_upc
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+habitat:
+  - intertidal
+mobility:
+  - mobile
+sampling_region:
+  - GOM
+  - Virginian
+catami_code: 24000000
+catami_version: "1.4"
+worms_code: 140263 
+---
+
+
+**Other images:** 
+
+![Alt image of hiru](/images/littorina_obtusata_JuliusA.Ellrich_Worms.jpg)
+<br/>
+Image by Julius A. Ellrich from [Worms](https://www.marinespecies.org/aphia.php?p=image&pic=113220&tid=140263)
+<br/>
+
+
+**Distinguishing features:** Small intertidal snail with a brightly colored yellow to yellow-green shell. Has a flattened spire and a tear-drop-shaped opening. 
+
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
+<br/>
+
+**Easily confused species and differentiation:** *Littorina saxatilis* (LISA) and *Littorina littorea* (LILI). LIOB is the most distinctly yellow of the three. LILI is pointy and cone-shaped, LISA is oval with a bumpy texture, and LIOB is round with a flat spine. LILI can grow larger, and LISA is the smallest of the three. 
+
+<br/>
+
+**Extended Description:** 
+
+**[WORMS page](https://www.marinespecies.org/aphia.php?p=taxdetails&id=140263)**
+

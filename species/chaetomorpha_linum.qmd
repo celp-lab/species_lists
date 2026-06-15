@@ -1,28 +1,29 @@
 ---
 species: "Chaetomorpha linum"
 accepted_code: "CHLI"
-alternate_codes: # "algae_CHLI"
-diminutive:
-alternate_diminutives: 
+alternate_codes:
+  - algae_CHLI
+diminutive: null
+alternate_diminutives: null
 common_name: "Spaghetti algae"
 field_id_possible:
   - no
 description: "Bright-to-dark tangled wiry filaments. Like fishing line. Not soft." 
-image: '/header_images/chaetomorpha_linum.jpg'
-image_credit: 'Image by Anna Fricke from' # MUST have an image credit
+image: "/header_images/chaetomorpha_linum.jpg"
+image_credit: "Image by Anna Fricke from Smithsonian Tropical Research Institute"
 categories:
   - green algae
 sampling_programs:
-    - bhi_quadrat
-    - bhi_rov
-    - bhi_bruv
-    - bhi_farms
-    - lsw_quad
-    - lsw_microquad
-    - lsw_videos
-    - marsh_quads
-    - marsh_pitfall
-    - marsh_traps
+  - bhi_quadrat
+  - bhi_rov
+  - bhi_bruv
+  - bhi_farms
+  - lsw_quad
+  - lsw_microquad
+  - lsw_videos
+  - marsh_quads
+  - marsh_pitfall
+  - marsh_traps
 habitat:
   - intertidal
   - subtidal

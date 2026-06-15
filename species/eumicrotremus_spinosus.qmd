@@ -1,0 +1,46 @@
+---
+species: "Eumicrotremus spinosus"
+accepted_code: "EUSP"
+alternate_codes: ""
+diminutive: ""
+alternate_diminutives: ""
+common_name: "Spiny lumpsucker"
+field_id_possible:
+  - yes
+description: "<15cm with body covered in irregular tubercles and pevlic fins evolved into suction cup-like disc"
+image: '/header_images/Eumicrotremus_spinosus.png'
+image_credit: 'Photo by Andrew Martinez via [REEF](https://www.reef.org/news/enews/making-it-count-march-2021/fish-month-march-2021)'
+categories:
+  - fish
+sampling_programs:
+    - keen_upc
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+    - bhi_farms
+habitat:
+  - subtidal
+mobility:
+  - mobile
+sampling_region:
+  - GOM
+catami_code: 
+catami_version: "1.4"
+worms_code: "127217"
+---
+
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** 
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
+<br/>
+
+**Easily confused species and differentiation:** 
+
+<br/>
+
+**Extended Description:** <!-- Extended description -->
+
+<!-- link to worms page -->

@@ -1,0 +1,46 @@
+---
+species: "Echinarachnius parma"
+accepted_code: "ECPA"
+alternate_codes: ""
+diminutive: ""
+alternate_diminutives: ""
+common_name: "Common sand dollar"
+field_id_possible:
+  - yes
+description: "Flat with small perforations forming a symmertrical 5 petal-like design"
+image: '/header_images/sanddollar.jpeg'
+image_credit: 'Photo by Heinke Schultz via [WORMS](https://www.marinespecies.org/aphia.php?p=image&pic=144709&tid=158062)'
+categories:
+  - 'sand dollars'
+sampling_programs:
+    - keen_quad
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+    - bhi_farms
+habitat:
+  - intertidal
+mobility:
+  - mobile
+sampling_region:
+  - GOM
+catami_code: 
+catami_version: "1.4"
+worms_code: "158062"
+---
+
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** 
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
+<br/>
+
+**Easily confused species and differentiation:** 
+
+<br/>
+
+**Extended Description:** <!-- Extended description -->
+
+<!-- link to worms page -->

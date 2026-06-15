@@ -1,0 +1,49 @@
+---
+species: "Dumontia contorta"
+accepted_code: "DUCO"
+alternate_codes: "" 
+diminutive: "" 
+alternate_diminutives: "" 
+common_name: "Tubular weed"
+field_id_possible:
+  - yes
+description: "flat cylinders" 
+image: '/header_images/Dumontia_contorta.jpg'
+image_credit: 'Photo from Józef Wiktor & Agnieszka Tatarek via [WORMS](https://www.marinespecies.org/aphia.php?p=image&pic=9680&tid=145228)'
+categories:
+  - green algae
+  - erect red algae
+sampling_programs:
+    - keen_quad
+    - keen_swath
+    - keen_upc
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+    - bhi_farms
+habitat:
+  - intertidal
+  - subtidal
+mobility:
+  - sessile
+sampling_region:
+  - GOM
+catami_code: 
+catami_version: "1.4"
+worms_code: 145228 
+---
+
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** can grow >5cm, soft, slippery and fragile, noodle like appearance, prefers upper to mid intertidal zone -->
+<br/>
+
+**Easily confused species and differentiation:** 
+
+<br/>
+
+**Extended Description:** <!-- Extended description -->
+
+**[WORMS page](https://www.marinespecies.org/aphia.php?p=taxdetails&id=145228)**

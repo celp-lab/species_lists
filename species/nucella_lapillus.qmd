@@ -1,0 +1,45 @@
+---
+species: "Nucella lapillus"
+accepted_code: "NULA"
+alternate_codes: 
+diminutive:
+alternate_diminutives: 
+common_name: "Dog whelk"
+field_id_possible:
+  - yes
+description: "cone shaped solid white or brown shell " 
+image: '/header_images/Nucella_lapillus.jpg'
+image_credit: 'Photo from Julius Ellrich via [WORMS](https://images.marinespecies.org/thumbs/126604_dogwhelk-feeding-on-barnacles.jpg?w=700)'
+categories:
+  - gastropods
+sampling_programs:
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+    - bhi_farms
+habitat:
+  - intertidal
+mobility:
+  - mobile
+sampling_region:
+  - GOM
+catami_code: 
+catami_version: "1.4"
+worms_code: 140403
+---
+
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** can grow up to 6cm, short pointed spire and spiral ridges, thick aperture with tooth like ridges, prefers intertidal zone.
+<br/>
+
+**Easily confused species and differentiation:** 
+
+<br/>
+
+**Extended Description:** <!-- Extended description -->
+
+
+**[WORMS page](https://www.marinespecies.org/aphia.php?p=taxdetails&id=140403)**

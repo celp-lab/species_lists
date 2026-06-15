@@ -1,0 +1,46 @@
+---
+species: "Euspira heros"
+accepted_code: "EUHE"
+alternate_codes: ""
+diminutive: ""
+alternate_diminutives: ""
+common_name: "Northern moon snail"
+field_id_possible:
+  - yes
+description: "Large spherical shell with large ear-shaped operculum" 
+image: '/header_images/moonsnail.jpeg'
+image_credit: 'Photo by Jeff Goddard' 
+categories:
+  - gastropods
+sampling_programs:
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+    - bhi_farms
+habitat:
+  - intertidal
+  - subtidal
+mobility:
+  - mobile
+sampling_region:
+  - GOM
+catami_code: 
+catami_version: "1.4"
+worms_code: "160315"
+---
+
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** 
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
+<br/>
+
+**Easily confused species and differentiation:** 
+
+<br/>
+
+**Extended Description:** <!-- Extended description -->
+
+<!-- link to worms page -->

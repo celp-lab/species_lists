@@ -35,7 +35,10 @@ worms_code: 145547
 
 ![Alt image of hiru](/images/fucus_spiralis_Marco_seaweedofcanada.jpg)
 <br/>
-Image showing receptacles with a ridge by Marco from Seaweed of Alaska.
+Image showing receptacles with a ridge by Marco I. from [Seaweed of Canada](https://seaweedcanada.wordpress.com/fucus-spiralis-linnaeus-bc-ar-a/).
+
+<br/>
+
 
 **Distinguishing features:** No air bladders. Heart-Shaped or Globular receptacles. Receptacles are swollen, blunt at tip, less than 4 times as long as wide, WITH a distinct rim around the edge. Blades rotate in spiral fashion. Found in the upper intertidal. 
 
@@ -43,7 +46,7 @@ Image showing receptacles with a ridge by Marco from Seaweed of Alaska.
 <!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
 <br/>
 
-**Easily confused species and differentiation:** *Fucus vessiculousus* (FUVE) and *Fucus distichus* (FUDI). FUVE has paired air bladders, FUDI has no air bladders. Both FUDI and FUVE do not typically FUSP receptacles have a distinct rim around the edge. If unable to differentiate, use mark as *Fucus* Unknown (FUCU).
+**Easily confused species and differentiation:** *Fucus vessiculousus* (FUVE) and *Fucus distichus* (FUDI). FUVE has paired air bladders, FUDI has no air bladders. Both FUDI and FUVE do not typically twist. FUSP receptacles have a distinct rim around the edge. If unable to differentiate, use mark as *Fucus* Unknown (FUCU).
 
 <br/>
 

@@ -1,0 +1,50 @@
+---
+species: "Grateloupia turuturu"
+accepted_code: "GRTU"
+alternate_codes: # "CODE" for single or ["CODE1", "CODE2"] for >1
+diminutive: #"CODE" # uncomment and fill in if one exists
+alternate_diminutives: # "CODE" for single or ["CODE1", "CODE2"] for >1
+common_name: "Devil's tongue weed"
+field_id_possible:
+  - yes
+description: "Red algae that is morphologically plastic but often looks like a thin red Saccharina." # make sure to fill this in!
+image: '/header_images/grateloupia_turuturu_TheSeaweedSite.jpg'
+image_credit: 'Photo copywright Cornwall, David Fenwick, Snr., from [The Seaweed Site](https://www.seaweed.ie/descriptions/Grateloupia_turuturu.php)' # MUST have an image credit and link to webpage NOT just the image
+categories:
+  - erect red algae
+sampling_programs:
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+    - bhi_farms
+    - lsw_quad
+    - lsw_microquad
+habitat:
+  - intertidal
+  - subtidal
+  - marsh
+mobility:
+  - sessile
+sampling_region:
+  - GOM
+  - Virginian
+catami_code: 80300922
+catami_version: "1.4"
+worms_code: 295880
+---
+
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** Morphologically plastic, but often looks like red Saccharina. Flat blade that is often slippery and a reddish-brown color. Can exceed 1m in length.
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
+<br/>
+
+**Easily confused species and differentiation:** *Palmaria palmata* (PAPA) and *Porphyra* spp. (PORS). GRTU has a slimy or slippery texture. PAPA has a more leathery firm texture. POSP grows in very thin, delicate blades that are often translucent and smaller than GRTU.
+
+<br/>
+
+**Extended Description:** <!-- Extended description -->
+
+**[WORMS page](https://www.marinespecies.org/aphia.php?p=taxdetails&id=295880)**

@@ -7,8 +7,6 @@ alternate_diminutives:
 common_name: "Blue Mussel"
 field_id_possible:
   - yes
-date: ""
-date-format: " "
 description: "Bivalve with a blueish-black shell and a narrow end. Rounded umbo joint."
 image: '/header_images/mytilus_edilus.jpg'
 categories:

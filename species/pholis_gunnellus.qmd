@@ -1,0 +1,51 @@
+---
+species: "Pholis gunnellus"
+accepted_code: "PHGU"
+alternate_codes: # "CODE" for single or ["CODE1", "CODE2"] for >1
+diminutive: #"CODE" # uncomment and fill in if one exists
+alternate_diminutives: # "CODE" for single or ["CODE1", "CODE2"] for >1
+common_name: "Rock Gunnel"
+field_id_possible:
+  - yes
+description: "Eel like fish with black and white-ringed eyespots along its dorsal." # make sure to fill this in!
+image: '/header_images/pholis_gunnellus_worms_EddyEneman.jpg'
+image_credit: 'Photo taken by Eddy Eneman from [WoRMS](https://www.marinespecies.org/aphia.php?p=image&pic=47679&tid=126996)' # MUST have an image credit and link to webpage NOT just the image
+categories:
+  - fish
+sampling_programs:
+    - keen_swath
+    - keen_upc
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+    - bhi_farms
+    - lsw_videos
+habitat:
+  - intertidal
+  - subtidal
+  - marsh
+mobility:
+  - mobile
+sampling_region:
+  - GOM
+  - Virginian
+catami_code: 37990083
+catami_version: "1.4"
+worms_code: 126996
+---
+
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** Eel-like body. Row of 9-13 white-ringed black spots. Usually grow to about 6-10inches long. Often found in rockpools in the intertidal. 
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
+<br/>
+
+**Easily confused species and differentiation:** 
+
+<br/>
+
+**Extended Description:** <!-- Extended description -->
+
+**[WORMS page](https://www.marinespecies.org/aphia.php?p=taxdetails&id=126996)**

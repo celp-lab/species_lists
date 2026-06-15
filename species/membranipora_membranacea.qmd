@@ -1,0 +1,48 @@
+---
+species: "Membranipora membranacea"
+accepted_code: "MEMA"
+alternate_codes: ["bryozoan_encrusting_MEME"]
+diminutive:
+alternate_diminutives: 
+common_name: "sea lace"
+field_id_possible:
+  - yes
+description: "white, rectangular zooids" 
+image: '/header_images/Membranipora_membranacea.jpg'
+image_credit: 'Photo from Hans De Blauwe via [WORMS](https://images.marinespecies.org/thumbs/23731_membranipora-membranacea-linnaeus-1767.jpg?w=700)'
+categories:
+  - bryozoans
+sampling_programs:
+    - keen_quad
+    - keen_swath
+    - keen_upc
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+    - bhi_farms
+habitat:
+  - intertidal
+  - subtidal
+mobility:
+  - sessile
+sampling_region:
+  - GOM
+catami_code: 20000901
+catami_version: "1.4"
+worms_code: 111411
+---
+
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** extremely small, colonies are papery, white or gray color growing directly on macroalgae, rectangular with spine like horns on its corners, prefers intertidal zone.
+<br/>
+
+**Easily confused species and differentiation:** 
+
+<br/>
+
+**Extended Description:** <!-- Extended description -->
+
+**[WORMS page](https://www.marinespecies.org/aphia.php?p=taxdetails&id=111411)**

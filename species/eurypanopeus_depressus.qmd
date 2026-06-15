@@ -1,0 +1,47 @@
+---
+species: "Eurypanopeus depressus"
+accepted_code: "EUDE"
+alternate_codes: ""
+diminutive: ""
+alternate_diminutives: ""
+common_name: "Flatback mud crab"
+field_id_possible:
+  - yes
+description: "Small; flattened, oval-shaped carapace with four blunt teeth on either side" 
+image: '/header_images/flatback_crab.jpeg'
+image_credit: 'Photo by Robert Aguilar'
+categories:
+  - crustaceans
+sampling_programs:
+    - bhi_quadrat
+    - bhi_rov
+    - bhi_bruv
+    - bhi_farms
+habitat:
+  - intertidal
+  - subtidal
+  - marsh
+mobility:
+  - mobile
+sampling_region:
+  - GOM
+catami_code: 
+catami_version: "1.4"
+worms_code: "158416"
+---
+
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** 
+<!-- size, gross morphology, a key identifier, zonation notes (intertidal or depth) -->
+<br/>
+
+**Easily confused species and differentiation:** 
+
+<br/>
+
+**Extended Description:** <!-- Extended description -->
+
+<!-- link to worms page -->

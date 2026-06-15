@@ -42,4 +42,6 @@ worms_code: 234208
 
 <br/>
 
-**Extended Description:** Sea snail that is found attached to hard substrate in both the intertidal and subtidal. 
+**Extended Description:**  
+
+**[WORMS page](https://www.marinespecies.org/aphia.php?p=taxdetails&id=234208)**

@@ -1,0 +1,54 @@
+---
+species: "Amathia spp."
+accepted_code: "AMSP"
+alternate_codes:
+  - bryozoan_encrusting_AMSP
+diminutive: null
+alternate_diminutives: null
+common_name: "Spaghetti Bryozoan"
+field_id_possible:
+  - no
+description: "Delicate, branching colonial bryozoan with tufted growth. Often tan to brown."
+image: "/header_images/amathia_spp.jpg"
+image_credit: "Image by Dan Spaulding from iNaturalist"
+categories:
+  - bryozoans
+sampling_programs:
+  - bhi_quadrat
+  - bhi_rov
+  - bhi_bruv
+  - bhi_farms
+  - lsw_quad
+  - lsw_microquad
+  - lsw_videos
+  - marsh_quads
+  - marsh_pitfall
+  - marsh_traps
+habitat:
+  - intertidal
+  - subtidal
+  - marsh
+mobility:
+  - sessile
+sampling_region:
+  - GOM
+  - Virginian
+catami_code: 20000901
+catami_version: "1.4"
+worms_code: 111022
+---
+
+**Other images:** <!-- Other images with attribution -->
+<br/>
+
+**Distinguishing features:** Delicate colonial bryozoan forming soft, branching, tufted growths. Unlike algae, the branches are made of many tiny zooids arranged in colonial tufts.
+
+<br/>
+
+**Easily confused species and differentiation:** Hydroids – Often more transparent and regularly feather-like; *Amathia* colonies look fuzzier and more tangled. Filamentous algae – Algae lack visible zooid clusters and are usually greener or more plant-like. Other bryozoans – Many encrust as flat sheets, while *Amathia* is more upright, branching, and tufted.
+
+<br/>
+
+**Extended Description:** *Amathia* spp. are colonial bryozoans that grow as branching tufts on submerged surfaces. Colonies are composed of many small zooids and often have a soft, tan-to-brown appearance. They're commonly found attached to hard substrates, algae, docks, shells, and other fouling surfaces.
+
+**[WORMS page](https://www.marinespecies.org/aphia.php?p=taxdetails&id=111022)**
